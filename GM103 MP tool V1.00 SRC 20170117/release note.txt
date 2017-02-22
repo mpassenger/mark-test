@@ -1,0 +1,61 @@
+///-----------------------------------------------------------------------
+2016-03-06  By Jack.Zhou   V1.90
+
+1.Delete Burning failure archive 
+2.Add MAC interval judgment  //8port & 16port & 24port
+3.Add read the log file, and compared with the current MAC & SN  
+4.Program into a version for V1.90
+
+///-----------------------------------------------------------------------
+2013-08-21  By Hearn
+
+1.Change the rule of the log file.
+
+ex:
+ 
+08/21/13 22:11:41 
+SN 5555555555555
+CURRENT-MAC_START=555555555555
+CURRENT-MAC_END=555555555555
+-> Success.
+
+
+2013-08-19  By Hearn
+
+1.Change the rule of the log file.
+
+ex:
+ 
+08/19/13 10:25:45 
+SN 5555555555555
+MAC 555555555555 -> Success.
+
+
+2013-08-16  By Hearn
+
+1. Add the function of log saving.
+
+2013-07-24  by Hearn
+
+1.Fixed saome bugs for GUI.
+2.Add Clear button to clear the start-mac end-mac and s/n
+3.Fixed the bug for burn function.
+
+
+2013-07-23  by Hearn
+
+1.Add the function of check start_mac,end_mac ,serial number and fw id.
+2.Add the "setsys dualfname0 1000AAHH0"command line
+
+
+2013-07-05  by Hearn
+
+1.Change the rule of burn mac.
+
+
+2013-06-14  by Hearn
+
+1.Fixed the bug which the edit field can not move  automatically.
+2.Chnage GUI style
+3.Add burn mac_start mac_end function. 
+///----------------------------------------------------------------------- 

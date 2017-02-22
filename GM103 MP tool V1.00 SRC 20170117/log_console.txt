@@ -1,0 +1,661 @@
+12/02/10 19:52:21 
+00E07D000028 
+12/02/10 19:52:52 
+00E07D000029 
+12/02/10 19:53:03 
+00E07D00002A 
+12/02/10 19:56:57 
+00E07D00002B 
+12/02/10 19:57:43 
+00E07D00002C 
+12/02/10 20:10:41 
+00E07D00002D 
+12/02/10 20:14:33 
+00E07D00002E 
+12/02/10 20:15:08 
+00E07D00002F 
+12/02/10 20:21:03 
+00E07D000030 
+12/02/10 20:23:26 
+00116BF05BCD 
+03/04/11 10:20:40 
+00116BF05BCE 
+07/31/13 13:53:02 
+1111111111111 -> Fial.
+07/31/13 13:59:18 
+2222222222222 -> PASS
+08/01/13 09:56:09 
+setsys dualfname0 100AAHK0
+RTL838x# setenv ethaddr 11:11:11:11:11:11
+RTL838x# setsys mac_end 11:11:11:11:11:11
+RTL838x# setsys mac_start 11:11:11:11:11:11
+RTL838x# setsys sn 1111111111111
+RTL838x# savesys
+Erasing SPI flash...II: Erasing 4096 bytes from 00050000...   0%100%
+Writing to SPI flash...II: Writting 4096 bytes to 00050000...   0%  7% 13% 19% 25% 32% 38% 44% 50% 57% 63% 69% 75% 82% 88% 94%100%
+done
+RTL838x# ssaveenv
+RTL838x# \printsys dualfname0
+RTL838x# 11
+RTL838x# :11:11:11
+RTL838x# 
+08/01/13 09:58:41 
+setsys dualfname0 100AAHK0
+RTL838x# setenv ethaddr 11:11:11:11:11:11
+RTL838x# setsys mac_end 11:11:11:11:11:11
+RTL838x# setsys mac_start 11:11:11:11:11:11
+RTL838x# setsys sn 1111111111111
+RTL838x# savesys
+Erasing SPI flash...II: Erasing 4096 bytes from 00050000...   0%100%
+Writing to SPI flash...II: Writting 4096 bytes to 00050000...   0%  7% 13% 19% 25% 32% 38% 44% 50% 57% 63% 69% 75% 82% 88% 94%100%
+done
+RTL838x# ssaveenv
+RTL838x# \printsys dualfname0
+08/01/13 09:59:37 
+setsys dualfname0 100AAHK0
+RTL838x# setenv ethaddr 11:11:11:11:11:11
+RTL838x# setsys mac_end 11:11:11:11:11:11
+RTL838x# setsys mac_start 11:11:11:11:11:11
+RTL838x# setsys sn 1111111111111
+RTL838x# printsys dualfname0
+08/01/13 10:01:37 
+setsys dualfname0 100AAHK0
+RTL838x# setenv ethaddr 11:11:11:11:11:11
+RTL838x# setsys mac_end 11:11:11:11:11:11
+RTL838x# setsys mac_start 11:11:11:11:11:11
+RTL838x# setsys sn 1111111111111
+RTL838x# printsys dualfname0
+dualfname0=100AAHK0
+RTL838x# 
+08/01/13 10:02:48 
+setsys dualfname0 100AAHK0
+RTL838x# setenv ethaddr 11:11:11:11:11:11
+RTL838x# setsys mac_end 11:11:11:11:11:11
+RTL838x# setsys mac_start 11:11:11:11:11:11
+RTL838x# setsys sn 1111111111111
+RTL838x# printsys dualfname0
+dualfname0=100AAHK0
+RTL838x# 
+08/01/13 10:07:10 
+setsys dualfname0 100AAHK0
+RTL838x# setenv ethaddr 11:11:11:11:11:11
+RTL838x# setsys mac_end 11:11:11:11:11:11
+RTL838x# setsys mac_start 11:11:11:11:11:11
+RTL838x# setsys sn 1111111111111
+RTL838x# savesys
+Erasing SPI flash...II: Erasing 4096 bytes from 00050000...   0%100%
+Writing to SPI flash...II: Writting 4096 bytes to 00050000...   0%  7% 13% 19% 25% 32% 38% 44% 50% 57% 63% 69% 75% 82% 88% 94%100%
+done
+RTL838x# \printsys dualfname0
+RTL838x# 
+08/01/13 10:09:40 
+setsys dualfname0 100AAHK0
+RTL838x# setenv ethaddr 11:11:11:11:11:11
+RTL838x# setsys mac_end 11:11:11:11:11:11
+RTL838x# setsys mac_start 11:11:11:11:11:11
+RTL838x# setsys sn 1111111111111
+RTL838x# savesys
+Erasing SPI flash...II: Erasing 4096 bytes from 00050000...   0%100%
+Writing to SPI flash...II: Writting 4096 bytes to 00050000...   0%  7% 13% 19% 25% 32% 38% 44% 50% 57% 63% 69% 75% 82% 88% 94%100%
+done
+RTL838x# \printsys dualfname0
+08/01/13 10:10:35 
+setsys dualfname0 100AAHK0
+RTL838x# setenv ethaddr 11:11:11:11:11:11
+RTL838x# setsys mac_end 11:11:11:11:11:11
+RTL838x# setsys mac_start 11:11:11:11:11:11
+RTL838x# setsys sn 1111111111111
+RTL838x# savesys
+Erasing SPI flash...II: Erasing 4096 bytes from 00050000...   0%100%
+Writing to SPI flash...II: Writting 4096 bytes to 00050000...   0%  7% 13% 19% 25% 32% 38% 44% 50% 57% 63% 69% 75% 82% 88% 94%100%
+done
+RTL838x# printsys dualfname0
+08/01/13 10:11:15 
+setsys dualfname0 100AAHK0
+RTL838x# setenv ethaddr 11:11:11:11:11:11
+RTL838x# setsys mac_end 11:11:11:11:11:11
+RTL838x# setsys mac_start 11:11:11:11:11:11
+RTL838x# setsys sn 1111111111111
+RTL838x# savesys
+Erasing SPI flash...II: Erasing 4096 bytes from 00050000...   0%100%
+Writing to SPI flash...II: Writting 4096 bytes to 00050000...   0%  7% 13% 19% 25% 32% 38% 44% 50% 57% 63% 69% 75% 82% 88% 94%100%
+done
+RTL838x# printsys dualfname0
+08/01/13 10:12:17 
+setsys dualfname0 100AAHK0
+RTL838x# setenv ethaddr 11:11:11:11:11:11
+RTL838x# setsys mac_end 11:11:11:11:11:11
+RTL838x# setsys mac_start 11:11:11:11:11:11
+RTL838x# setsys sn 1111111111111
+RTL838x# savesys
+Erasing SPI flash...II: Erasing 4096 bytes from 00050000...   0%100%
+Writing to SPI flash...II: Writting 4096 bytes to 00050000...   0%  7% 13% 19% 25% 32% 38% 44% 50% 57% 63% 69% 75% 82% 88% 94%100%
+done
+RTL838x# printsys dualfname0
+08/01/13 10:13:24 
+setsys dualfname0 100AAHK0
+RTL838x# setenv ethaddr 22:22:22:22:22:22
+RTL838x# setsys mac_end 22:22:22:22:22:22
+RTL838x# setsys mac_start 22:22:22:22:22:22
+RTL838x# setsys sn 2222222222222
+RTL838x# savesys
+Erasing SPI flash...II: Erasing 4096 bytes from 00050000...   0%100%
+Writing to SPI flash...II: Writting 4096 bytes to 00050000...   0%  7% 13% 19% 25% 32% 38% 44% 50% 57% 63% 69% 75% 82% 88% 94%100%
+done
+RTL838x# printsys dualfname0
+08/01/13 10:16:39 
+setsys dualfname0 100AAHK0
+RTL838x# setenv ethaddr 11:11:11:11:11:11
+RTL838x# setsys mac_end 11:11:11:11:11:11
+RTL838x# setsys mac_start 11:11:11:11:11:11
+RTL838x# setsys sn 1111111111111
+RTL838x# savesys
+Erasing SPI flash...II: Erasing 4096 bytes from 00050000...   0%100%
+Writing to SPI flash...II: Writting 4096 bytes to 00050000...   0%  7% 13% 19% 25% 32% 38% 44% 50% 57% 63% 69% 75% 82% 88% 94%100%
+done
+RTL838x# printsys dualfname0
+08/01/13 10:17:53 
+setsys dualfname0 100AAHK0
+RTL838x# setenv ethaddr 11:11:11:11:11:11
+RTL838x# setsys mac_end 11:11:11:11:11:11
+RTL838x# setsys mac_start 11:11:11:11:11:11
+RTL838x# setsys sn 1111111111111
+RTL838x# savesys
+Erasing SPI flash...II: Erasing 4096 bytes from 00050000...   0%100%
+Writing to SPI flash...II: Writting 4096 bytes to 00050000...   0%  7% 13% 19% 25% 32% 38% 44% 50% 57% 63% 69% 75% 82% 88% 94%100%
+done
+RTL838x# printsys dualfname0
+08/01/13 10:19:13 
+setsys dualfname0 100AAHK0
+RTL838x# setenv ethaddr 11:11:11:11:11:11
+RTL838x# setsys mac_end 11:11:11:11:11:11
+RTL838x# setsys mac_start 11:11:11:11:11:11
+RTL838x# setsys sn 1111111111111
+RTL838x# savesys
+Erasing SPI flash...II: Erasing 4096 bytes from 00050000...   0%100%
+Writing to SPI flash...II: Writting 4096 bytes to 00050000...   0%  7% 13% 19% 25% 32% 38% 44% 50% 57% 63% 69% 75% 82% 88% 94%100%
+done
+RTL838x# printsys dualfname0
+dualfname0=100AAHK0
+RTL838x# 
+08/01/13 10:23:47 
+setsys dualfname0 100AAHK0
+RTL838x# setenv ethaddr 11:11:11:11:11:11
+RTL838x# setsys mac_end 11:11:11:11:11:11
+RTL838x# setsys mac_start 11:11:11:11:11:11
+RTL838x# setsys sn 1111111111111
+RTL838x# savesys
+Erasing SPI flash...II: Erasing 4096 bytes from 00050000...   0%100%
+Writing to SPI flash...II: Writting 4096 bytes to 00050000...   0%  7% 13% 19% 25% 32% 38% 44% 50% 57% 63% 69% 75% 82% 88% 94%100%
+done
+RTL838x# saveenv
+Saving Environment to SPI Flash...
+Erasing SPI flash...II: Erasing 4096 bytes from 00040000...   0%100%
+Writing to SPI flash...II: Writting 1024 bytes to 00040000...   0% 25% 50% 75%100%
+II: Writting 3072 bytes to 00040400...   0%  9% 17% 25% 34% 42% 50% 59% 67% 75% 84% 92%100%
+done
+RTL838x# \printsys dualfname0
+RTL838x# 
+08/01/13 10:24:52 
+setsys dualfname0 100AAHK0
+RTL838x# setenv ethaddr 11:11:11:11:11:11
+RTL838x# setsys mac_end 11:11:11:11:11:11
+RTL838x# setsys mac_start 11:11:11:11:11:11
+RTL838x# setsys sn 1111111111111
+RTL838x# savesys
+Erasing SPI flash...II: Erasing 4096 bytes from 00050000...   0%100%
+Writing to SPI flash...II: Writting 4096 bytes to 00050000...   0%  7% 13% 19% 25% 32% 38% 44% 50% 57% 63% 69% 75% 82% 88% 94%100%
+done
+RTL838x# saveenv
+Saving Environment to SPI Flash...
+Erasing SPI flash...II: Erasing 4096 bytes from 00040000...   0%100%
+Writing to SPI flash...II: Writting 1024 bytes to 00040000...   0% 25% 50% 75%100%
+II: Writting 3072 bytes to 00040400...   0%  9% 17% 25% 34% 42% 50% 59% 67% 75% 84% 92%100%
+done
+RTL838x# printsys dualfname0
+dualfname0=100AAHK0
+RTL838x# 
+08/01/13 14:30:28 
+setsys dualfname0 100AAHK0
+RTL838x# setenv ethaddr 11:11:11:11:11:11
+RTL838x# setsys mac_end 11:11:11:11:11:11
+RTL838x# setsys mac_start 11:11:11:11:11:11
+RTL838x# setsys sn 1111111111111
+RTL838x# savesys
+Erasing SPI flash...II: Erasing 4096 bytes from 00050000...   0%100%
+Writing to SPI flash...II: Writting 4096 bytes to 00050000...   0%  7% 13% 19% 25% 32% 38% 44% 50% 57% 63% 69% 75% 82% 88% 94%100%
+done
+RTL838x# saveenv
+Saving Environment to SPI Flash...
+Erasing SPI flash...II: Erasing 4096 bytes from 00040000...   0%100%
+Writing to SPI flash...II: Writting 1024 bytes to 00040000...   0% 25% 50% 75%100%
+II: Writting 3072 bytes to 00040400...   0%  9% 17% 25% 34% 42% 50% 59% 67% 75% 84% 92%100%
+done
+RTL838x# printsys dualfname0
+dualfname0=100AAHK0
+RTL838x# 
+08/01/13 14:31:36 
+setsys dualfname0 100AAHK0
+RTL838x# setenv ethaddr 22:22:22:22:22:22
+RTL838x# setsys mac_end 22:22:22:22:22:22
+RTL838x# setsys mac_start 22:22:22:22:22:22
+RTL838x# setsys sn 2222222222222
+RTL838x# savesys
+Erasing SPI flash...II: Erasing 4096 bytes from 00050000...   0%100%
+Writing to SPI flash...II: Writting 4096 bytes to 00050000...   0%  7% 13% 19% 25% 32% 38% 44% 50% 57% 63% 69% 75% 82% 88% 94%100%
+done
+RTL838x# saveenv
+Saving Environment to SPI Flash...
+Erasing SPI flash...II: Erasing 4096 bytes from 00040000...   0%100%
+Writing to SPI flash...II: Writting 1024 bytes to 00040000...   0% 25% 50% 75%100%
+II: Writting 3072 bytes to 00040400...   0%  9% 17% 25% 34% 42% 50% 59% 67% 75% 84% 92%100%
+done
+RTL838x# printsys dualfname0
+dualfname0=100AAHK0
+RTL838x# 
+08/01/13 14:33:47 
+setsys dualfname0 100AAHK0
+RTL838x# setenv ethaddr 11:11:11:11:11:11
+RTL838x# setsys mac_end 11:11:11:11:11:11
+RTL838x# setsys mac_start 11:11:11:11:11:11
+RTL838x# setsys sn 1111111111111
+RTL838x# savesys
+Erasing SPI flash...II: Erasing 4096 bytes from 00050000...   0%100%
+Writing to SPI flash...II: Writting 4096 bytes to 00050000...   0%  7% 13% 19% 25% 32% 38% 44% 50% 57% 63% 69% 75% 82% 88% 94%100%
+done
+RTL838x# saveenv
+Saving Environment to SPI Flash...
+Erasing SPI flash...II: Erasing 4096 bytes from 00040000...   0%100%
+Writing to SPI flash...II: Writting 1024 bytes to 00040000...   0% 25% 50% 75%100%
+II: Writting 3072 bytes to 00040400...   0%  9% 17% 25% 34% 42% 50% 59% 67% 75% 84% 92%100%
+done
+RTL838x# printsys dualfname0
+dualfname0=100AAHK0
+RTL838x# 
+08/01/13 14:35:18 
+setsys dualfname0 100AAHK0
+RTL838x# setenv ethaddr 44:44:44:44:44:44
+RTL838x# setsys mac_end 44:44:44:44:44:44
+RTL838x# setsys mac_start 44:44:44:44:44:44
+RTL838x# setsys sn 4444444444444
+RTL838x# savesys
+Erasing SPI flash...II: Erasing 4096 bytes from 00050000...   0%100%
+Writing to SPI flash...II: Writting 4096 bytes to 00050000...   0%  7% 13% 19% 25% 32% 38% 44% 50% 57% 63% 69% 75% 82% 88% 94%100%
+done
+RTL838x# saveenv
+Saving Environment to SPI Flash...
+Erasing SPI flash...II: Erasing 4096 bytes from 00040000...   0%100%
+Writing to SPI flash...II: Writting 1024 bytes to 00040000...   0% 25% 50% 75%100%
+II: Writting 3072 bytes to 00040400...   0%  9% 17% 25% 34% 42% 50% 59% 67% 75% 84% 92%100%
+done
+RTL838x# printsys dualfname0
+dualfname0=100AAHK0
+RTL838x# 
+08/01/13 14:39:37 
+setsys dualfname0 100AAHK0
+RTL838x# setenv ethaddr 22:22:22:22:22:22
+RTL838x# setsys mac_end 22:22:22:22:22:22
+RTL838x# setsys mac_start 22:22:22:22:22:22
+RTL838x# setsys sn 2222222222222
+RTL838x# savesys
+Erasing SPI flash...II: Erasing 4096 bytes from 00050000...   0%100%
+Writing to SPI flash...II: Writting 4096 bytes to 00050000...   0%  7% 13% 19% 25% 32% 38% 44% 50% 57% 63% 69% 75% 82% 88% 94%100%
+done
+RTL838x# saveenv
+Saving Environment to SPI Flash...
+Erasing SPI flash...II: Erasing 4096 bytes from 00040000...   0%100%
+Writing to SPI flash...II: Writting 1024 bytes to 00040000...   0% 25% 50% 75%100%
+II: Writting 3072 bytes to 00040400...   0%  9% 17% 25% 34% 42% 50% 59% 67% 75% 84% 92%100%
+done
+RTL838x# printsys dualfname0
+dualfname0=100AAHK0
+RTL838x# 
+08/01/13 14:41:10 
+setsys dualfname0 100AAHK0
+RTL838x# setenv ethaddr 33:33:33:33:33:33
+RTL838x# setsys mac_end 33:33:33:33:33:33
+RTL838x# setsys mac_start 33:33:33:33:33:33
+RTL838x# setsys sn 3333333333333
+RTL838x# savesys
+Erasing SPI flash...II: Erasing 4096 bytes from 00050000...   0%100%
+Writing to SPI flash...II: Writting 4096 bytes to 00050000...   0%  7% 13% 19% 25% 32% 38% 44% 50% 57% 63% 69% 75% 82% 88% 94%100%
+done
+RTL838x# saveenv
+Saving Environment to SPI Flash...
+Erasing SPI flash...II: Erasing 4096 bytes from 00040000...   0%100%
+Writing to SPI flash...II: Writting 1024 bytes to 00040000...   0% 25% 50% 75%100%
+II: Writting 3072 bytes to 00040400...   0%  9% 17% 25% 34% 42% 50% 59% 67% 75% 84% 92%100%
+done
+RTL838x# printsys dualfname0
+dualfname0=100AAHK0
+RTL838x# 
+08/01/13 14:43:37 
+setsys dualfname0 100AAHK0
+RTL838x# setenv ethaddr 22:22:22:22:22:22
+RTL838x# setsys mac_end 22:22:22:22:22:22
+RTL838x# setsys mac_start 22:22:22:22:22:22
+RTL838x# setsys sn 2222222222222
+RTL838x# savesys
+Erasing SPI flash...II: Erasing 4096 bytes from 00050000...   0%100%
+Writing to SPI flash...II: Writting 4096 bytes to 00050000...   0%  7% 13% 19% 25% 32% 38% 44% 50% 57% 63% 69% 75% 82% 88% 94%100%
+done
+RTL838x# saveenv
+Saving Environment to SPI Flash...
+Erasing SPI flash...II: Erasing 4096 bytes from 00040000...   0%100%
+Writing to SPI flash...II: Writting 1024 bytes to 00040000...   0% 25% 50% 75%100%
+II: Writting 3072 bytes to 00040400...   0%  9% 17% 25% 34% 42% 50% 59% 67% 75% 84% 92%100%
+done
+RTL838x# printsys dualfname0
+dualfname0=100AAHK0
+RTL838x# 
+08/01/13 14:49:25 
+setsys dualfname0 100AAHK0
+RTL838x# setenv ethaddr 22:22:22:22:22:22
+RTL838x# setsys mac_end 22:22:22:22:22:22
+RTL838x# setsys mac_start 22:22:22:22:22:22
+RTL838x# setsys sn 2222222222222
+RTL838x# savesys
+Erasing SPI flash...II: Erasing 4096 bytes from 00050000...   0%100%
+Writing to SPI flash...II: Writting 4096 bytes to 00050000...   0%  7% 13% 19% 25% 32% 38% 44% 50% 57% 63% 69% 75% 82% 88% 94%100%
+done
+RTL838x# saveenv
+Saving Environment to SPI Flash...
+Erasing SPI flash...II: Erasing 4096 bytes from 00040000...   0%100%
+Writing to SPI flash...II: Writting 1024 bytes to 00040000...   0% 25% 50% 75%100%
+II: Writting 3072 bytes to 00040400...   0%  9% 17% 25% 34% 42% 50% 59% 67% 75% 84% 92%100%
+done
+RTL838x# printsys dualfname0
+dualfname0=100AAHK0
+RTL838x# 
+08/01/13 14:51:12 
+setsys dualfname0 100AAHK0
+RTL838x# setenv ethaddr 11:11:11:11:11:11
+RTL838x# setsys mac_end 11:11:11:11:11:11
+RTL838x# setsys mac_start 11:11:11:11:11:11
+RTL838x# setsys sn 1111111111111
+RTL838x# savesys
+Erasing SPI flash...II: Erasing 4096 bytes from 00050000...   0%100%
+Writing to SPI flash...II: Writting 4096 bytes to 00050000...   0%  7% 13% 19% 25% 32% 38% 44% 50% 57% 63% 69% 75% 82% 88% 94%100%
+done
+RTL838x# saveenv
+Saving Environment to SPI Flash...
+Erasing SPI flash...II: Erasing 4096 bytes from 00040000...   0%100%
+Writing to SPI flash...II: Writting 1024 bytes to 00040000...   0% 25% 50% 75%100%
+II: Writting 3072 bytes to 00040400...   0%  9% 17% 25% 34% 42% 50% 59% 67% 75% 84% 92%100%
+done
+RTL838x# printsys dualfname0
+dualfname0=100AAHK0
+RTL838x# 
+08/01/13 14:52:31 
+setsys dualfname0 100AAHK0
+RTL838x# setenv ethaddr 11:11:11:11:11:11
+RTL838x# setsys mac_end 11:11:11:11:11:11
+RTL838x# setsys mac_start 11:11:11:11:11:11
+RTL838x# setsys sn 1111111111111
+RTL838x# savesys
+Erasing SPI flash...II: Erasing 4096 bytes from 00050000...   0%100%
+Writing to SPI flash...II: Writting 4096 bytes to 00050000...   0%  7% 13% 19% 25% 32% 38% 44% 50% 57% 63% 69% 75% 82% 88% 94%100%
+done
+RTL838x# saveenv
+Saving Environment to SPI Flash...
+Erasing SPI flash...II: Erasing 4096 bytes from 00040000...   0%100%
+Writing to SPI flash...II: Writting 1024 bytes to 00040000...   0% 25% 50% 75%100%
+II: Writting 3072 bytes to 00040400...   0%  9% 17% 25% 34% 42% 50% 59% 67% 75% 84% 92%100%
+done
+RTL838x# printsys dualfname0
+dualfname0=100AAHK0
+RTL838x# 
+08/01/13 16:44:33 
+setsys dualfname0 100AAHK0
+RTL838x# setenv ethaddr 33:33:33:33:33:33
+RTL838x# setsys mac_end 33:33:33:33:33:33
+RTL838x# setsys mac_start 33:33:33:33:33:33
+RTL838x# setsys sn 3333333333333
+RTL838x# savesys
+Erasing SPI flash...II: Erasing 4096 bytes from 00050000...   0%100%
+Writing to SPI flash...II: Writting 4096 bytes to 00050000...   0%  7% 13% 19% 25% 32% 38% 44% 50% 57% 63% 69% 75% 82% 88% 94%100%
+done
+RTL838x# saveenv
+Saving Environment to SPI Flash...
+Erasing SPI flash...II: Erasing 4096 bytes from 00040000...   0%100%
+Writing to SPI flash...II: Writting 1024 bytes to 00040000...   0% 25% 50% 75%100%
+II: Writting 3072 bytes to 00040400...   0%  9% 17% 25% 34% 42% 50% 59% 67% 75% 84% 92%100%
+done
+RTL838x# printsys dualfname0
+dualfname0=100AAHK0
+RTL838x# 
+08/01/13 16:46:23 
+setsys dualfname0 100AAHK0
+RTL838x# setenv ethaddr 11:11:11:11:11:11
+RTL838x# setsys mac_end 11:11:11:11:11:11
+RTL838x# setsys mac_start 11:11:11:11:11:11
+RTL838x# setsys sn 1111111111111
+RTL838x# savesys
+Erasing SPI flash...II: Erasing 4096 bytes from 00050000...   0%100%
+Writing to SPI flash...II: Writting 4096 bytes to 00050000...   0%  7% 13% 19% 25% 32% 38% 44% 50% 57% 63% 69% 75% 82% 88% 94%100%
+done
+RTL838x# saveenv
+Saving Environment to SPI Flash...
+Erasing SPI flash...II: Erasing 4096 bytes from 00040000...   0%100%
+Writing to SPI flash...II: Writting 1024 bytes to 00040000...   0% 25% 50% 75%100%
+II: Writting 3072 bytes to 00040400...   0%  9% 17% 25% 34% 42% 50% 59% 67% 75% 84% 92%100%
+done
+RTL838x# printsys dualfname0
+dualfname0=100AAHK0
+RTL838x# 
+08/01/13 16:49:56 
+setsys dualfname0 100AAHK0
+RTL838x# setenv ethaddr 11:11:11:11:11:11
+RTL838x# setsys mac_end 11:11:11:11:11:11
+RTL838x# setsys mac_start 11:11:11:11:11:11
+RTL838x# setsys sn 1111111111111
+RTL838x# savesys
+Erasing SPI flash...II: Erasing 4096 bytes from 00050000...   0%100%
+Writing to SPI flash...II: Writting 4096 bytes to 00050000...   0%  7% 13% 19% 25% 32% 38% 44% 50% 57% 63% 69% 75% 82% 88% 94%100%
+done
+RTL838x# saveenv
+Saving Environment to SPI Flash...
+Erasing SPI flash...II: Erasing 4096 bytes from 00040000...   0%100%
+Writing to SPI flash...II: Writting 1024 bytes to 00040000...   0% 25% 50% 75%100%
+II: Writting 3072 bytes to 00040400...   0%  9% 17% 25% 34% 42% 50% 59% 67% 75% 84% 92%100%
+done
+RTL838x# printsys dualfname0
+dualfname0=100AAHK0
+RTL838x# 
+08/01/13 16:53:37 
+setsys dualfname0 100AAHK0
+RTL838x# setenv ethaddr 11:11:11:11:11:11
+RTL838x# setsys mac_end 11:11:11:11:11:11
+RTL838x# setsys mac_start 11:11:11:11:11:11
+RTL838x# setsys sn 1111111111111
+RTL838x# savesys
+Erasing SPI flash...II: Erasing 4096 bytes from 00050000...   0%100%
+Writing to SPI flash...II: Writting 4096 bytes to 00050000...   0%  7% 13% 19% 25% 32% 38% 44% 50% 57% 63% 69% 75% 82% 88% 94%100%
+done
+RTL838x# saveenv
+Saving Environment to SPI Flash...
+Erasing SPI flash...II: Erasing 4096 bytes from 00040000...   0%100%
+Writing to SPI flash...II: Writting 1024 bytes to 00040000...   0% 25% 50% 75%100%
+II: Writting 3072 bytes to 00040400...   0%  9% 17% 25% 34% 42% 50% 59% 67% 75% 84% 92%100%
+done
+RTL838x# printsys dualfname0
+dualfname0=100AAHK0
+RTL838x# 
+08/01/13 17:04:52 
+setsys dualfname0 100AAHK0
+RTL838x# setenv ethaddr 11:11:11:11:11:11
+RTL838x# setsys mac_end 11:11:11:11:11:11
+RTL838x# setsys mac_start 11:11:11:11:11:11
+RTL838x# setsys sn 1111111111111
+RTL838x# savesys
+Erasing SPI flash...II: Erasing 4096 bytes from 00050000...   0%100%
+Writing to SPI flash...II: Writting 4096 bytes to 00050000...   0%  7% 13% 19% 25% 32% 38% 44% 50% 57% 63% 69% 75% 82% 88% 94%100%
+done
+RTL838x# saveenv
+Saving Environment to SPI Flash...
+Erasing SPI flash...II: Erasing 4096 bytes from 00040000...   0%100%
+Writing to SPI flash...II: Writting 1024 bytes to 00040000...   0% 25% 50% 75%100%
+II: Writting 3072 bytes to 00040400...   0%  9% 17% 25% 34% 42% 50% 59% 67% 75% 84% 92%100%
+done
+RTL838x# printsys dualfname0
+dualfname0=100AAHK0
+RTL838x# 
+08/01/13 17:06:59 
+setsys dualfname0 100AAHK0
+RTL838x# setenv ethaddr 11:11:11:11:11:11
+RTL838x# setsys mac_end 11:11:11:11:11:11
+RTL838x# setsys mac_start 11:11:11:11:11:11
+RTL838x# setsys sn 1111111111111
+RTL838x# savesys
+Erasing SPI flash...II: Erasing 4096 bytes from 00050000...   0%100%
+Writing to SPI flash...II: Writting 4096 bytes to 00050000...   0%  7% 13% 19% 25% 32% 38% 44% 50% 57% 63% 69% 75% 82% 88% 94%100%
+done
+RTL838x# saveenv
+Saving Environment to SPI Flash...
+Erasing SPI flash...II: Erasing 4096 bytes from 00040000...   0%100%
+Writing to SPI flash...II: Writting 1024 bytes to 00040000...   0% 25% 50% 75%100%
+II: Writting 3072 bytes to 00040400...   0%  9% 17% 25% 34% 42% 50% 59% 67% 75% 84% 92%100%
+done
+RTL838x# printsys dualfname0
+dualfname0=100AAHK0
+RTL838x# 
+08/01/13 17:33:14 
+setsys dualfname0 100AAHK0
+RTL838x# setenv ethaddr 11:11:11:11:11:11
+RTL838x# setsys mac_end 11:11:11:11:11:11
+RTL838x# setsys mac_start 11:11:11:11:11:11
+RTL838x# setsys sn 1111111111111
+RTL838x# savesys
+Erasing SPI flash...II: Erasing 4096 bytes from 00050000...   0%100%
+Writing to SPI flash...II: Writting 4096 bytes to 00050000...   0%  7% 13% 19% 25% 32% 38% 44% 50% 57% 63% 69% 75% 82% 88% 94%100%
+done
+RTL838x# saveenv
+Saving Environment to SPI Flash...
+Erasing SPI flash...II: Erasing 4096 bytes from 00040000...   0%100%
+Writing to SPI flash...II: Writting 1024 bytes to 00040000...   0% 25% 50% 75%100%
+II: Writting 3072 bytes to 00040400...   0%  9% 17% 25% 34% 42% 50% 59% 67% 75% 84% 92%100%
+done
+RTL838x# printsys dualfname0
+dualfname0=100AAHK0
+RTL838x# 
+08/02/13 14:03:02 
+setsys dualfname0 100AAHK0
+RTL838x# setenv ethaddr 11:11:11:11:11:11
+RTL838x# setsys mac_end 11:11:11:11:11:11
+RTL838x# setsys mac_start 11:11:11:11:11:11
+RTL838x# setsys sn 1111111111111
+RTL838x# savesys
+Erasing SPI flash...II: Erasing 4096 bytes from 00050000...   0%100%
+Writing to SPI flash...II: Writting 4096 bytes to 00050000...   0%  7% 13% 19% 25% 32% 38% 44% 50% 57% 63% 69% 75% 82% 88% 94%100%
+done
+RTL838x# saveenv
+Saving Environment to SPI Flash...
+Erasing SPI flash...II: Erasing 4096 bytes from 00040000...   0%100%
+Writing to SPI flash...II: Writting 1024 bytes to 00040000...   0% 25% 50% 75%100%
+II: Writting 3072 bytes to 00040400...   0%  9% 17% 25% 34% 42% 50% 59% 67% 75% 84% 92%100%
+done
+RTL838x# printsys dualfname0
+dualfname0=100AAHK0
+RTL838x# 
+08/02/13 14:05:01 
+setsys dualfname0 100AAHK0
+RTL838x# setenv ethaddr 11:11:11:11:11:11
+RTL838x# setsys mac_end 11:11:11:11:11:11
+RTL838x# setsys mac_start 11:11:11:11:11:11
+RTL838x# setsys sn 1111111111111
+RTL838x# savesys
+Erasing SPI flash...II: Erasing 4096 bytes from 00050000...   0%100%
+Writing to SPI flash...II: Writting 4096 bytes to 00050000...   0%  7% 13% 19% 25% 32% 38% 44% 50% 57% 63% 69% 75% 82% 88% 94%100%
+done
+RTL838x# saveenv
+Saving Environment to SPI Flash...
+Erasing SPI flash...II: Erasing 4096 bytes from 00040000...   0%100%
+Writing to SPI flash...II: Writting 1024 bytes to 00040000...   0% 25% 50% 75%100%
+II: Writting 3072 bytes to 00040400...   0%  9% 17% 25% 34% 42% 50% 59% 67% 75% 84% 92%100%
+done
+RTL838x# printsys dualfname0
+dualfname0=100AAHK0
+RTL838x# 
+08/02/13 14:55:52 
+setsys dualfname0 100AAHK0
+RTL838x# setenv ethaddr 11:22:33:44:55:66
+RTL838x# setsys mac_end 11:11:11:11:11:11
+RTL838x# setsys mac_start 11:22:33:44:55:66
+RTL838x# setsys sn 1111111111111
+RTL838x# savesys
+Erasing SPI flash...II: Erasing 4096 bytes from 00050000...   0%100%
+Writing to SPI flash...II: Writting 4096 bytes to 00050000...   0%  7% 13% 19% 25% 32% 38% 44% 50% 57% 63% 69% 75% 82% 88% 94%100%
+done
+RTL838x# saveenv
+Saving Environment to SPI Flash...
+Erasing SPI flash...II: Erasing 4096 bytes from 00040000...   0%100%
+Writing to SPI flash...II: Writting 1024 bytes to 00040000...   0% 25% 50% 75%100%
+II: Writting 3072 bytes to 00040400...   0%  9% 17% 25% 34% 42% 50% 59% 67% 75% 84% 92%100%
+done
+RTL838x# printsys dualfname0
+dualfname0=100AAHK0
+RTL838x# 
+08/02/13 15:07:05 
+setsys dualfname0 100AAHK0
+RTL838x# setenv ethaddr 11:11:11:11:11:11
+RTL838x# setsys mac_end 11:11:11:11:11:11
+RTL838x# setsys mac_start 11:11:11:11:11:11
+RTL838x# setsys sn 1111111111111
+RTL838x# savesys
+Erasing SPI flash...II: Erasing 4096 bytes from 00050000...   0%100%
+Writing to SPI flash...II: Writting 4096 bytes to 00050000...   0%  7% 13% 19% 25% 32% 38% 44% 50% 57% 63% 69% 75% 82% 88% 94%100%
+done
+RTL838x# saveenv
+Saving Environment to SPI Flash...
+Erasing SPI flash...II: Erasing 4096 bytes from 00040000...   0%100%
+Writing to SPI flash...II: Writting 1024 bytes to 00040000...   0% 25% 50% 75%100%
+II: Writting 3072 bytes to 00040400...   0%  9% 17% 25% 34% 42% 50% 59% 67% 75% 84% 92%100%
+done
+RTL838x# printsys dualfname0
+dualfname0=100AAHK0
+RTL838x# 
+08/09/13 14:21:13 
+printsys daulfname0
+## Error: "daulfname0" not defined
+RTL838x# 11
+RTL838x# :11:11:11
+RTL838x# nv
+Saving Environment to SPI Flash...
+Erasing SPI flash...II: Erasing 4096 bytes from 00040000...   0%100%
+Writing to SPI flash...II: Writting 1024 bytes to 00040000...   0% 25% 50% 75%100%
+II: Writting 3072 bytes to 00040400...   0%  9% 17% 25% 34% 42% 50% 59% 67% 75% 84% 92%100%
+done
+RTL838x# resetreset 
+Unknown command 'resetreset' - try 'help'
+RTL838x# 
+08/09/13 14:23:53 
+printsys daulfname0
+## Error: "daulfname0" not defined
+RTL838x# 33
+RTL838x# :33:33:33
+RTL838x# nv
+Saving Environment to SPI Flash...
+Erasing SPI flash...II: Erasing 4096 bytes from 00040000...   0%100%
+Writing to SPI flash...II: Writting 1024 bytes to 00040000...   0% 25% 50% 75%100%
+II: Writting 3072 bytes to 00040400...   0%  9% 17% 25% 34% 42% 50% 59% 67% 75% 84% 92%100%
+done
+RTL838x# resetreset 
+Unknown command 'resetreset' - try 'help'
+RTL838x# 
+08/09/13 14:25:27 
+printsys daulfname0
+## Error: "daulfname0" not defined
+RTL838x# 33
+RTL838x# :33:33:33
+RTL838x# nv
+Saving Environment to SPI Flash...
+Erasing SPI flash...II: Erasing 4096 bytes from 00040000...   0%100%
+Writing to SPI flash...II: Writting 1024 bytes to 00040000...   0% 25% 50% 75%100%
+II: Writting 3072 bytes to 00040400...   0%  9% 17% 25% 34% 42% 50% 59% 67% 75% 84% 92%100%
+done
+RTL838x# resetreset 
+Unknown command 'resetreset' - try 'help'
+RTL838x# 
+08/12/13 13:46:30 
+printsys mac_start
+mac_start=11:11:11:11:11:11
