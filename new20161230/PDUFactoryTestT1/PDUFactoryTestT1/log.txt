@@ -1,0 +1,29 @@
+08/09/16 15:33:50 
+login as: pakedgepassword: Welcome to Pakedge PDU. Type 'help' for more information.
+
+08/09/16 16:55:39 
+pakedgepassword: Welcome to Pakedge PDU. Type 'help' for more information.
+
+08/09/16 16:55:51 
+pakedgepassword: Welcome to Pakedge PDU. Type 'help' for more information.
+
+08/10/16 08:11:38 
+login as: pakedgepassword: Welcome to Pakedge PDU. Type 'help' for more information.
+
+08/10/16 08:50:51 
+pakedgepassword: Welcome to Pakedge PDU. Type 'help' for more information.
+
+！！！！The same landing approach, the log can be produced by normal login above！！！！！！！！！
+
+login as: pakedgeppassword: Invalid login, Access deniedlogin as: 
+
+08/09/16 17:06:34 
+login as: pakedgeppassword: Invalid login, Access denied
+
+ 
+08/10/16 08:16:39 pakedgeppassword: Invalid login, Access denied
+
+
+08/10/16 08:43:23 pakedgeppassword: Invalid login, Access deniedlogin as:
+
+-------！！！！The above is unable to log produced by normal landing！！！--------！！！！！！

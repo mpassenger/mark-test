@@ -1,0 +1,1421 @@
+------------------------New Pdu Test--------------------------
+ 
+08/09/16 13:57:04 
+Pakedge-PDU$ login: pakedge
+login as: p
+
+password: pakedgep
+akedgepassword: 
+Welcome to Pakedge PDU.
+ Type 'help' for more information.
+
+Pakedge-PDU$ test SD-card
+
+PakedgePE-08I-CCDD01$ 
+test SD-card{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+
+Pakedge-PDU$ test SDRAM
+PakedgePE-08I-CCDD01$ t
+est SDRAM{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+ 
+------------------------Test  Result--------------------------
+ 
+FAIL 
+
+------------------------New Pdu Test--------------------------
+ 
+08/09/16 14:20:23 
+login as: 
+p
+akedgeppassword: 
+Invalid login, Access denied
+login as: 
+login as: 
+Pakedge-PDU$ test SDRAM
+t
+est SDRAMpassword: 
+ 
+------------------------Test  Result--------------------------
+ 
+FAIL 
+
+------------------------New Pdu Test--------------------------
+ 
+08/09/16 15:32:52 
+login as: 
+pakedgepassword: 
+Welcome to Pakedge PDU.
+ Type 'help' for more information.
+
+PakedgePE-08I-CCDD01$ test SD-card
+{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ 
+Pakedge-PDU$ test SDRAM
+t
+est SDRAM{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+ 
+------------------------Test  Result--------------------------
+ 
+FAIL 
+
+------------------------New Pdu Test--------------------------
+ 
+08/09/16 15:35:08 
+login as: 
+pakedgepassword: 
+Welcome to Pakedge PDU.
+ Type 'help' for more information.
+
+PakedgePE-08I-CCDD01$ t
+est SDRAM{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+ 
+------------------------Test  Result--------------------------
+ 
+FAIL 
+
+------------------------New Pdu Test--------------------------
+ 
+08/09/16 15:35:57 
+login as: 
+pakedgepassword: 
+Welcome to Pakedge PDU.
+ Type 'help' for more information.
+
+PakedgePE-08I-CCDD01$ test SDRAM
+{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+ 
+------------------------Test  Result--------------------------
+ 
+FAIL 
+
+------------------------New Pdu Test--------------------------
+ 
+08/09/16 16:08:58 
+login as: p
+akedgepassword: 
+Welcome to Pakedge PDU.
+ Type 'help' for more information.
+
+PakedgePE-08I-CCDD01$ set outlet-power -o 1 -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 2 -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 3 -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 4 -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 5 -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 6 -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 7 -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 8 -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ set outlet
+-power -o 1 -v 1{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ s
+et outlet-power -o 2 -v 1{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ s
+et outlet-power -o 3 -v 1{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ s
+et outlet-power -o 4 -v 1{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ s
+et outlet-power -o 5 -v 1{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ s
+et outlet-power -o 6 -v 1{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ s
+et outlet-power -o 7 -v 1{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ s
+et outlet-power -o 8 -v 1{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ power-cycle -o 1
+{"status":"success"}
+PakedgePE-08I-CCDD01$ power-cycle -o 2
+{"status":"success"}
+PakedgePE-08I-CCDD01$ power-cycle -o 3
+{"status":"success"}
+PakedgePE-08I-CCDD01$ power-cycle -o 4
+{"status":"success"}
+PakedgePE-08I-CCDD01$ power-cycle -o 5
+{"status":"success"}
+PakedgePE-08I-CCDD01$ power-cycle -o 6
+{"status":"success"}
+PakedgePE-08I-CCDD01$ power-cycle -o 7
+{"status":"success"}
+PakedgePE-08I-CCDD01$ power-cycle -o 8
+{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ test oled-fill 1
+{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+
+PakedgePE-08I-CCDD01$ 
+ 
+------------------------Test  Result--------------------------
+ 
+FAIL 
+
+------------------------New Pdu Test--------------------------
+ 
+08/09/16 16:09:40 
+login as: 
+pakedgepassword: 
+Welcome to Pakedge PDU.
+ Type 'help' for more information.
+
+PakedgePE-08I-CCDD01$ test oled-fill 1
+{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+
+PakedgePE-08I-CCDD01$ 
+ 
+------------------------Test  Result--------------------------
+ 
+FAIL 
+
+------------------------New Pdu Test--------------------------
+ 
+08/09/16 16:12:25 
+login as: 
+pakedgepassword: 
+Welcome to Pakedge PDU.
+ Type 'help' for more information.
+
+PakedgePE-08I-CCDD01$ test oled-fill 1
+{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+ 
+------------------------Test  Result--------------------------
+ 
+FAIL 
+
+------------------------New Pdu Test--------------------------
+ 
+08/09/16 18:28:42 
+login as: 
+pakedgepassword: 
+Welcome to Pakedge PDU.
+ Type 'help' for more information.
+
+PakedgePE-08I-CCDD01$ test SD-card
+{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ test SDRAM
+{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ buzzer -v 1
+{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ buzzer -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ ping -i 192.168.1.111
+{"status":"success", "response":{"transmitted":"5","received":"5","loss":"0%"}}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ show device-info
+{"status":"success", "response":{"firmware_version":"0.89","model":"PE-08I","serial_number":"000000000000000","MAC":"00:AA:BB:CC:DD:01","hostname":"PakedgePE-08I-CCDD01"}}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ show pdu-status
+{"status":"success", "response":{"pdu_voltage":"224 V","pdu_frequency":"50 Hz","pdu_alert":"0","pdu_current":"0.00 A","pdu_temp":"28","pdu_temp_unit":"C","pdu_humidity":"54%"}}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ set outlet-power -o 1 -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 2 -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 3 -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 4 -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 5 -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 6 -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 7 -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 8 -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ set outlet-power -o 1 -v 1
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 2 -v 1
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 3 -v 1
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 4 -v 1
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 5 -v 1
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 6 -v 1
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 7 -v 1
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 8 -v 1
+{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ power-cycle -o 1
+{"status":"success"}
+PakedgePE-08I-CCDD01$ power-cycle -o 2
+{"status":"success"}
+PakedgePE-08I-CCDD01$ power-cycle -o 3
+{"status":"success"}
+PakedgePE-08I-CCDD01$ power-cycle -o 4
+{"status":"success"}
+PakedgePE-08I-CCDD01$ power-cycle -o 5
+{"status":"success"}
+PakedgePE-08I-CCDD01$ power-cycle -o 6
+{"status":"success"}
+PakedgePE-08I-CCDD01$ power-cycle -o 7
+{"status":"success"}
+PakedgePE-08I-CCDD01$ power-cycle -o 8
+{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ test oled-fill 1
+ 
+------------------------Test  Result--------------------------
+ 
+FAIL 
+
+------------------------New Pdu Test--------------------------
+ 
+08/09/16 18:37:28 
+p
+akedgeppassword: 
+Invalid login, Access denied
+login as: test oled-fill 1
+password: 
+ 
+------------------------Test  Result--------------------------
+ 
+FAIL 
+
+------------------------New Pdu Test--------------------------
+ 
+08/09/16 18:37:31 
+p
+akedgeppassword: 
+Invalid login, Access denied
+login as: test oled-fill 1
+password: 
+OLED have Dark spot or Light spot
+ 
+------------------------Test  Result--------------------------
+ 
+FAIL 
+
+------------------------New Pdu Test--------------------------
+ 
+08/09/16 18:37:42 
+p
+akedgeppassword: 
+Invalid login, Access denied
+login as: test oled-fill 1
+password: 
+ 
+------------------------Test  Result--------------------------
+ 
+FAIL 
+
+------------------------New Pdu Test--------------------------
+ 
+08/09/16 18:37:44 
+p
+akedgeppassword: 
+Invalid login, Access denied
+login as: test oled-fill 1
+password: 
+OLED have Dark spot or Light spot
+ 
+------------------------Test  Result--------------------------
+ 
+FAIL 
+
+------------------------New Pdu Test--------------------------
+ 
+08/09/16 18:37:59 
+login as: p
+akedgeppassword: 
+Invalid login, Access denied
+login as: test oled-fill 1
+password: 
+ 
+------------------------Test  Result--------------------------
+ 
+FAIL 
+
+------------------------New Pdu Test--------------------------
+ 
+08/09/16 18:38:02 
+login as: p
+akedgeppassword: 
+Invalid login, Access denied
+login as: test oled-fill 1
+password: 
+OLED have Dark spot or Light spot
+ 
+------------------------Test  Result--------------------------
+ 
+FAIL 
+
+------------------------New Pdu Test--------------------------
+ 
+08/09/16 18:38:12 
+login as: p
+akedgeppassword: 
+Invalid login, Access denied
+login as: test oled-fill 1
+password: 
+ 
+------------------------Test  Result--------------------------
+ 
+FAIL 
+
+------------------------New Pdu Test--------------------------
+ 
+08/09/16 18:38:15 
+login as: p
+akedgeppassword: 
+Invalid login, Access denied
+login as: test oled-fill 1
+password: 
+OLED have Dark spot or Light spot
+ 
+------------------------Test  Result--------------------------
+ 
+FAIL 
+
+------------------------New Pdu Test--------------------------
+ 
+08/09/16 18:43:38 
+login as: p
+akedgeppassword: 
+Invalid login, Access denied
+login as: test oled-fill 1
+password: 
+ 
+------------------------Test  Result--------------------------
+ 
+FAIL 
+
+------------------------New Pdu Test--------------------------
+ 
+08/09/16 18:43:41 
+login as: p
+akedgeppassword: 
+Invalid login, Access denied
+login as: test oled-fill 1
+password: 
+OLED have Dark spot or Light spot
+ 
+------------------------Test  Result--------------------------
+ 
+FAIL 
+
+------------------------New Pdu Test--------------------------
+ 
+08/09/16 18:50:09 
+login as: 
+pakedgepassword: 
+Welcome to Pakedge PDU.
+ Type 'help' for more information.
+
+PakedgePE-08I-CCDD01$ test SD-card
+{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ test SDRAM
+{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ buzzer -v 1
+{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ buzzer -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ ping -i 192.168.1.111
+{"status":"success", "response":{"transmitted":"5","received":"5","loss":"0%"}}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ show device-info
+{"status":"success", "response":{"firmware_version":"0.89","model":"PE-08I","serial_number":"000000000000000","MAC":"00:AA:BB:CC:DD:01","hostname":"PakedgePE-08I-CCDD01"}}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ show pdu-status
+{"status":"success", "response":{"pdu_voltage":"225 V","pdu_frequency":"50 Hz","pdu_alert":"0","pdu_current":"0.00 A","pdu_temp":"28","pdu_temp_unit":"C","pdu_humidity":"55%"}}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ set outlet-power -o 1 -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 2 -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 3 -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 4 -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 5 -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 6 -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 7 -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 8 -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ set outlet-power -o 1 -v 1
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 2 -v 1
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 3 -v 1
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 4 -v 1
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 5 -v 1
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 6 -v 1
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 7 -v 1
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 8 -v 1
+{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ power-cycle -o 1
+{"status":"success"}
+PakedgePE-08I-CCDD01$ power-cycle -o 2
+{"status":"success"}
+PakedgePE-08I-CCDD01$ power-cycle -o 3
+{"status":"success"}
+PakedgePE-08I-CCDD01$ power-cycle -o 4
+{"status":"success"}
+PakedgePE-08I-CCDD01$ power-cycle -o 5
+{"status":"success"}
+PakedgePE-08I-CCDD01$ power-cycle -o 6
+{"status":"success"}
+PakedgePE-08I-CCDD01$ power-cycle -o 7
+{"status":"success"}
+PakedgePE-08I-CCDD01$ power-cycle -o 8
+{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ test oled-fill 1
+{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+ 
+------------------------Test  Result--------------------------
+ 
+FAIL 
+
+------------------------New Pdu Test--------------------------
+ 
+08/09/16 18:56:49 
+login as: 
+pakedgepassword: 
+Welcome to Pakedge PDU.
+ Type 'help' for more information.
+
+PakedgePE-08I-CCDD01$ test SD-card
+{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ test SDRAM
+{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ buzzer -v 1
+{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ buzzer -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ ping -i 192.168.1.111
+{"status":"success", "response":{"transmitted":"5","received":"5","loss":"0%"}}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ show device-info
+{"status":"success", "response":{"firmware_version":"0.89","model":"PE-08I","serial_number":"000000000000000","MAC":"00:AA:BB:CC:DD:01","hostname":"PakedgePE-08I-CCDD01"}}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ show pdu-status
+{"status":"success", "response":{"pdu_voltage":"225 V","pdu_frequency":"50 Hz","pdu_alert":"0","pdu_current":"0.00 A","pdu_temp":"28","pdu_temp_unit":"C","pdu_humidity":"56%"}}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ set outlet-power -o 1 -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 2 -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 3 -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 4 -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 5 -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 6 -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 7 -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 8 -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ set outlet-power -o 1 -v 1
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 2 -v 1
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 3 -v 1
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 4 -v 1
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 5 -v 1
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 6 -v 1
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 7 -v 1
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 8 -v 1
+{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ power-cycle -o 1
+{"status":"success"}
+PakedgePE-08I-CCDD01$ power-cycle -o 2
+{"status":"success"}
+PakedgePE-08I-CCDD01$ power-cycle -o 3
+{"status":"success"}
+PakedgePE-08I-CCDD01$ power-cycle -o 4
+{"status":"success"}
+PakedgePE-08I-CCDD01$ power-cycle -o 5
+{"status":"success"}
+PakedgePE-08I-CCDD01$ power-cycle -o 6
+{"status":"success"}
+PakedgePE-08I-CCDD01$ power-cycle -o 7
+{"status":"success"}
+PakedgePE-08I-CCDD01$ power-cycle -o 8
+{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ test oled-fill 1
+{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+ 
+------------------------Test  Result--------------------------
+ 
+FAIL 
+
+------------------------New Pdu Test--------------------------
+ 
+08/10/16 08:10:28 
+login as: 
+pakedgepassword: 
+Welcome to Pakedge PDU.
+ Type 'help' for more information.
+
+PakedgePE-08I-CCDD01$ test SD-card
+{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ test SDRAM
+{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ buzzer -v 1
+{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ buzzer -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ ping -i 192.168.1.111
+{"status":"success", "response":{"transmitted":"5","received":"5","loss":"0%"}}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ show device-info
+{"status":"success", "response":{"firmware_version":"0.89","model":"PE-08I","serial_number":"000000000000000","MAC":"00:AA:BB:CC:DD:01","hostname":"PakedgePE-08I-CCDD01"}}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ show pdu-status
+{"status":"success", "response":{"pdu_voltage":"226 V","pdu_frequency":"51 Hz","pdu_alert":"0","pdu_current":"0.00 A","pdu_temp":"28","pdu_temp_unit":"C","pdu_humidity":"73%"}}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ set outlet-power -o 1 -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 2 -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 3 -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 4 -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 5 -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 6 -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 7 -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 8 -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ set outlet-power -o 1 -v 1
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 2 -v 1
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 3 -v 1
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 4 -v 1
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 5 -v 1
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 6 -v 1
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 7 -v 1
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 8 -v 1
+{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ power-cycle -o 1
+{"status":"success"}
+PakedgePE-08I-CCDD01$ power-cycle -o 2
+{"status":"success"}
+PakedgePE-08I-CCDD01$ power-cycle -o 3
+{"status":"success"}
+PakedgePE-08I-CCDD01$ power-cycle -o 4
+{"status":"success"}
+PakedgePE-08I-CCDD01$ power-cycle -o 5
+{"status":"success"}
+PakedgePE-08I-CCDD01$ power-cycle -o 6
+{"status":"success"}
+PakedgePE-08I-CCDD01$ power-cycle -o 7
+{"status":"success"}
+PakedgePE-08I-CCDD01$ power-cycle -o 8
+{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ test oled-fill 1
+{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+ 
+------------------------Test  Result--------------------------
+ 
+FAIL 
+
+------------------------New Pdu Test--------------------------
+ 
+08/10/16 08:20:21 
+p
+akedgepassword: 
+
+Welcome to Pakedge PDU.
+ Type 'help' for more information.
+
+PakedgePE-08I-CCDD01$ test SD-card
+{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ test SDRAM
+{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ buzzer -v 1
+{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ buzzer -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ ping -i 192.168.1.111
+{"status":"success", "response":{"transmitted":"5","received":"5","loss":"0%"}}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ show device-info
+{"status":"success", "response":{"firmware_version":"0.89","model":"PE-08I","serial_number":"000000000000000","MAC":"00:AA:BB:CC:DD:01","hostname":"PakedgePE-08I-CCDD01"}}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ show pdu-status
+{"status":"success", "response":{"pdu_voltage":"225 V","pdu_frequency":"51 Hz","pdu_alert":"0","pdu_current":"0.00 A","pdu_temp":"28","pdu_temp_unit":"C","pdu_humidity":"67%"}}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ set outlet-power -o 1 -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 2 -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 3 -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 4 -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 5 -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 6 -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 7 -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 8 -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ set outlet-power -o 1 -v 1
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 2 -v 1
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 3 -v 1
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 4 -v 1
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 5 -v 1
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 6 -v 1
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 7 -v 1
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 8 -v 1
+{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ power-cycle -o 1
+{"status":"success"}
+PakedgePE-08I-CCDD01$ power-cycle -o 2
+{"status":"success"}
+PakedgePE-08I-CCDD01$ power-cycle -o 3
+{"status":"success"}
+PakedgePE-08I-CCDD01$ power-cycle -o 4
+{"status":"success"}
+PakedgePE-08I-CCDD01$ power-cycle -o 5
+{"status":"success"}
+PakedgePE-08I-CCDD01$ power-cycle -o 6
+{"status":"success"}
+PakedgePE-08I-CCDD01$ power-cycle -o 7
+{"status":"success"}
+PakedgePE-08I-CCDD01$ power-cycle -o 8
+{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ test oled-fill 1
+{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+ 
+------------------------Test  Result--------------------------
+ 
+FAIL 
+
+------------------------New Pdu Test--------------------------
+ 
+08/10/16 08:28:29 
+login as: p
+akedgepassword: 
+
+Welcome to Pakedge PDU.
+ Type 'help' for more information.
+
+PakedgePE-08I-CCDD01$ test SD-card
+{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ test SDRAM
+{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ buzzer -v 1
+{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ buzzer -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ ping -i 192.168.1.111
+{"status":"success", "response":{"transmitted":"5","received":"5","loss":"0%"}}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ show device-info
+{"status":"success", "response":{"firmware_version":"0.89","model":"PE-08I","serial_number":"000000000000000","MAC":"00:AA:BB:CC:DD:01","hostname":"PakedgePE-08I-CCDD01"}}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ show pdu-status
+{"status":"success", "response":{"pdu_voltage":"225 V","pdu_frequency":"51 Hz","pdu_alert":"0","pdu_current":"0.00 A","pdu_temp":"28","pdu_temp_unit":"C","pdu_humidity":"66%"}}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ set outlet-power -o 1 -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 2 -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 3 -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 4 -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 5 -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 6 -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 7 -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 8 -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ set outlet-power -o 1 -v 1
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 2 -v 1
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 3 -v 1
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 4 -v 1
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 5 -v 1
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 6 -v 1
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 7 -v 1
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 8 -v 1
+{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ power-cycle -o 1
+{"status":"success"}
+PakedgePE-08I-CCDD01$ power-cycle -o 2
+{"status":"success"}
+PakedgePE-08I-CCDD01$ power-cycle -o 3
+{"status":"success"}
+PakedgePE-08I-CCDD01$ power-cycle -o 4
+{"status":"success"}
+PakedgePE-08I-CCDD01$ power-cycle -o 5
+{"status":"success"}
+PakedgePE-08I-CCDD01$ power-cycle -o 6
+{"status":"success"}
+PakedgePE-08I-CCDD01$ power-cycle -o 7
+{"status":"success"}
+PakedgePE-08I-CCDD01$ power-cycle -o 8
+{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ test oled-fill 1
+{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+ 
+------------------------Test  Result--------------------------
+ 
+FAIL 
+
+------------------------New Pdu Test--------------------------
+ 
+08/10/16 08:28:32 
+login as: p
+akedgepassword: 
+
+Welcome to Pakedge PDU.
+ Type 'help' for more information.
+
+PakedgePE-08I-CCDD01$ test SD-card
+{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ test SDRAM
+{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ buzzer -v 1
+{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ buzzer -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ ping -i 192.168.1.111
+{"status":"success", "response":{"transmitted":"5","received":"5","loss":"0%"}}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ show device-info
+{"status":"success", "response":{"firmware_version":"0.89","model":"PE-08I","serial_number":"000000000000000","MAC":"00:AA:BB:CC:DD:01","hostname":"PakedgePE-08I-CCDD01"}}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ show pdu-status
+{"status":"success", "response":{"pdu_voltage":"225 V","pdu_frequency":"51 Hz","pdu_alert":"0","pdu_current":"0.00 A","pdu_temp":"28","pdu_temp_unit":"C","pdu_humidity":"66%"}}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ set outlet-power -o 1 -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 2 -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 3 -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 4 -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 5 -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 6 -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 7 -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 8 -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ set outlet-power -o 1 -v 1
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 2 -v 1
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 3 -v 1
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 4 -v 1
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 5 -v 1
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 6 -v 1
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 7 -v 1
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 8 -v 1
+{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ power-cycle -o 1
+{"status":"success"}
+PakedgePE-08I-CCDD01$ power-cycle -o 2
+{"status":"success"}
+PakedgePE-08I-CCDD01$ power-cycle -o 3
+{"status":"success"}
+PakedgePE-08I-CCDD01$ power-cycle -o 4
+{"status":"success"}
+PakedgePE-08I-CCDD01$ power-cycle -o 5
+{"status":"success"}
+PakedgePE-08I-CCDD01$ power-cycle -o 6
+{"status":"success"}
+PakedgePE-08I-CCDD01$ power-cycle -o 7
+{"status":"success"}
+PakedgePE-08I-CCDD01$ power-cycle -o 8
+{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ test oled-fill 1
+{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+OLED have Dark spot or Light spot
+ 
+------------------------Test  Result--------------------------
+ 
+FAIL 
+
+------------------------New Pdu Test--------------------------
+ 
+08/10/16 08:33:17 
+p
+akedgepassword: 
+
+Welcome to Pakedge PDU.
+ Type 'help' for more information.
+
+PakedgePE-08I-CCDD01$ test SD-card
+{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ test SDRAM
+{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ buzzer -v 1
+{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ buzzer -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ ping -i 192.168.1.111
+{"status":"success", "response":{"transmitted":"5","received":"5","loss":"0%"}}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ show device-info
+{"status":"success", "response":{"firmware_version":"0.89","model":"PE-08I","serial_number":"000000000000000","MAC":"00:AA:BB:CC:DD:01","hostname":"PakedgePE-08I-CCDD01"}}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ show pdu-status
+{"status":"success", "response":{"pdu_voltage":"224 V","pdu_frequency":"50 Hz","pdu_alert":"0","pdu_current":"0.00 A","pdu_temp":"28","pdu_temp_unit":"C","pdu_humidity":"64%"}}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ set outlet-power -o 1 -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 2 -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 3 -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 4 -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 5 -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 6 -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 7 -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 8 -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ set outlet-power -o 1 -v 1
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 2 -v 1
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 3 -v 1
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 4 -v 1
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 5 -v 1
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 6 -v 1
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 7 -v 1
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 8 -v 1
+{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ power-cycle -o 1
+{"status":"success"}
+PakedgePE-08I-CCDD01$ power-cycle -o 2
+{"status":"success"}
+PakedgePE-08I-CCDD01$ power-cycle -o 3
+{"status":"success"}
+PakedgePE-08I-CCDD01$ power-cycle -o 4
+{"status":"success"}
+PakedgePE-08I-CCDD01$ power-cycle -o 5
+{"status":"success"}
+PakedgePE-08I-CCDD01$ power-cycle -o 6
+{"status":"success"}
+PakedgePE-08I-CCDD01$ power-cycle -o 7
+{"status":"success"}
+PakedgePE-08I-CCDD01$ power-cycle -o 8
+{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ test oled-fill 1
+{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+ 
+------------------------Test  Result--------------------------
+ 
+FAIL 
+
+------------------------New Pdu Test--------------------------
+ 
+08/10/16 08:33:19 
+p
+akedgepassword: 
+
+Welcome to Pakedge PDU.
+ Type 'help' for more information.
+
+PakedgePE-08I-CCDD01$ test SD-card
+{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ test SDRAM
+{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ buzzer -v 1
+{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ buzzer -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ ping -i 192.168.1.111
+{"status":"success", "response":{"transmitted":"5","received":"5","loss":"0%"}}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ show device-info
+{"status":"success", "response":{"firmware_version":"0.89","model":"PE-08I","serial_number":"000000000000000","MAC":"00:AA:BB:CC:DD:01","hostname":"PakedgePE-08I-CCDD01"}}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ show pdu-status
+{"status":"success", "response":{"pdu_voltage":"224 V","pdu_frequency":"50 Hz","pdu_alert":"0","pdu_current":"0.00 A","pdu_temp":"28","pdu_temp_unit":"C","pdu_humidity":"64%"}}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ set outlet-power -o 1 -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 2 -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 3 -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 4 -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 5 -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 6 -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 7 -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 8 -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ set outlet-power -o 1 -v 1
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 2 -v 1
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 3 -v 1
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 4 -v 1
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 5 -v 1
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 6 -v 1
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 7 -v 1
+{"status":"success"}
+PakedgePE-08I-CCDD01$ set outlet-power -o 8 -v 1
+{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ power-cycle -o 1
+{"status":"success"}
+PakedgePE-08I-CCDD01$ power-cycle -o 2
+{"status":"success"}
+PakedgePE-08I-CCDD01$ power-cycle -o 3
+{"status":"success"}
+PakedgePE-08I-CCDD01$ power-cycle -o 4
+{"status":"success"}
+PakedgePE-08I-CCDD01$ power-cycle -o 5
+{"status":"success"}
+PakedgePE-08I-CCDD01$ power-cycle -o 6
+{"status":"success"}
+PakedgePE-08I-CCDD01$ power-cycle -o 7
+{"status":"success"}
+PakedgePE-08I-CCDD01$ power-cycle -o 8
+{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ test oled-fill 1
+{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+OLED have Dark spot or Light spot
+ 
+------------------------Test  Result--------------------------
+ 
+FAIL 
+
+------------------------New Pdu Test--------------------------
+ 
+08/10/16 08:33:36 
+login as: 
+p
+akedgeppassword: 
+Invalid login, Access denied
+login as: test oled-fill 1
+password: 
+ 
+------------------------Test  Result--------------------------
+ 
+FAIL 
+
+------------------------New Pdu Test--------------------------
+ 
+08/10/16 08:33:40 
+login as: 
+p
+akedgeppassword: 
+Invalid login, Access denied
+login as: test oled-fill 1
+password: 
+OLED have Dark spot or Light spot
+ 
+------------------------Test  Result--------------------------
+ 
+FAIL 
+
+------------------------New Pdu Test--------------------------
+ 
+08/10/16 10:53:15 
+login as: 
+pakedgepassword: 
+
+Welcome to Pakedge PDU.
+ Type 'help' for more information.
+
+PakedgePE-08I-CCDD01$ ping -i 192.168.1.111
+
+ 
+------------------------Test  Result--------------------------
+ 
+FAIL 
+
+------------------------New Pdu Test--------------------------
+ 
+08/10/16 10:53:59 
+login as: 
+p
+akedgeppassword: 
+Invalid login, Access denied
+login as: ping -i 192.168.1.111
+password: 
+ 
+------------------------Test  Result--------------------------
+ 
+FAIL 
+
+------------------------New Pdu Test--------------------------
+ 
+08/11/16 16:52:55 
+login as: p
+akedgepassword: 
+Welcome to Pakedge PDU.
+ Type 'help' for more information.
+
+PakedgePE-08I-523654$ test SD-card
+{"status":"success"}
+PakedgePE-08I-523654$ 
+PakedgePE-08I-523654$ test SDRAM
+{"status":"success"}
+PakedgePE-08I-523654$ 
+PakedgePE-08I-523654$ buzzer -v 1
+{"status":"success"}
+PakedgePE-08I-523654$ 
+PakedgePE-08I-523654$ buzzer -v 0
+{"status":"success"}
+PakedgePE-08I-523654$ 
+Buzzer is Wrong
+
+·äøQÆ÷œyÔ‡Ê§”¡
+PakedgePE-08I-523654$ ping -i 192.168.1.111
+{"status":"success", "response":{"transmitted":"5","received":"5","loss":"0%"}}
+PakedgePE-08I-523654$ 
+PakedgePE-08I-523654$ show device-info
+{"status":"success", "response":{"firmware_version":"0.89","model":"PE-08I","serial_number":"PE-08IC0516A00000","MAC":"22:3D:F2:52:36:54","hostname":"PakedgePE-08I-523654"}}
+PakedgePE-08I-523654$ 
+PakedgePE-08I-523654$ show pdu-status
+{"status":"success", "response":{"pdu_voltage":"226 V","pdu_frequency":"50 Hz","pdu_alert":"0","pdu_current":"0.00 A","pdu_temp":"28","pdu_temp_unit":"C","pdu_humidity":"58%"}}
+PakedgePE-08I-523654$ 
+PakedgePE-08I-523654$ test SDRAM
+{"status":"success"}
+PakedgePE-08I-523654$ 
+PakedgePE-08I-523654$ buzzer -v 1
+{"status":"success"}
+PakedgePE-08I-523654$ 
+PakedgePE-08I-523654$ buzzer -v 0
+{"status":"success"}
+PakedgePE-08I-523654$ 
+PakedgePE-08I-523654$ show pdu-status
+{"status":"success", "response":{"pdu_voltage":"226 V","pdu_frequency":"51 Hz","pdu_alert":"0","pdu_current":"0.00 A","pdu_temp":"28","pdu_temp_unit":"C","pdu_humidity":"59%"}}
+PakedgePE-08I-523654$ 
+PakedgePE-08I-523654$ set outlet-power -o 1 -v 0
+{"status":"success"}
+PakedgePE-08I-523654$ set outlet-power -o 2 -v 0
+{"status":"success"}
+PakedgePE-08I-523654$ set outlet-power -o 3 -v 0
+{"status":"success"}
+PakedgePE-08I-523654$ set outlet-power -o 4 -v 0
+{"status":"success"}
+PakedgePE-08I-523654$ set outlet-power -o 5 -v 0
+{"status":"success"}
+PakedgePE-08I-523654$ set outlet-power -o 6 -v 0
+{"status":"success"}
+PakedgePE-08I-523654$ set outlet-power -o 7 -v 0
+{"status":"success"}
+PakedgePE-08I-523654$ set outlet-power -o 8 -v 0
+{"status":"success"}
+PakedgePE-08I-523654$ 
+PakedgePE-08I-523654$ s
+et outlet-power -o 1 -v 1{"status":"success"}
+PakedgePE-08I-523654$ 
+PakedgePE-08I-523654$ s
+et outlet-power -o 2 -v 1{"status":"success"}
+PakedgePE-08I-523654$ 
+PakedgePE-08I-523654$ set outlet-power -o 3 -v 1
+{"status":"success"}
+PakedgePE-08I-523654$ 
+PakedgePE-08I-523654$ set outlet-power -o 4 -v 
+1{"status":"success"}
+PakedgePE-08I-523654$ 
+PakedgePE-08I-523654$ s
+et outlet-power -o 5 -v 1{"status":"success"}
+PakedgePE-08I-523654$ 
+PakedgePE-08I-523654$ s
+et outlet-power -o 6 -v 1{"status":"success"}
+PakedgePE-08I-523654$ 
+PakedgePE-08I-523654$ s
+et outlet-power -o 7 -v 1{"status":"success"}
+PakedgePE-08I-523654$ 
+PakedgePE-08I-523654$ s
+et outlet-power -o 8 -v 1{"status":"success"}
+PakedgePE-08I-523654$ 
+PakedgePE-08I-523654$ 
+PakedgePE-08I-523654$ power-cycle -o 1
+{"status":"success"}
+PakedgePE-08I-523654$ power-cycle -o 2
+{"status":"success"}
+PakedgePE-08I-523654$ power-cycle -o 3
+{"status":"success"}
+PakedgePE-08I-523654$ power-cycle -o 4
+{"status":"success"}
+PakedgePE-08I-523654$ power-cycle -o 5
+{"status":"success"}
+PakedgePE-08I-523654$ power-cycle -o 6
+{"status":"success"}
+PakedgePE-08I-523654$ power-cycle -o 7
+{"status":"success"}
+PakedgePE-08I-523654$ power-cycle -o 8
+{"status":"success"}
+PakedgePE-08I-523654$ 
+PakedgePE-08I-523654$ test oled-fill 1
+{"status":"success"}
+PakedgePE-08I-523654$ 
+ 
+------------------------Test  Result--------------------------
+ 
+FAIL 
+
+------------------------New Pdu Test--------------------------
+ 
+08/11/16 16:53:00 
+login as: p
+akedgepassword: 
+Welcome to Pakedge PDU.
+ Type 'help' for more information.
+
+PakedgePE-08I-523654$ test SD-card
+{"status":"success"}
+PakedgePE-08I-523654$ 
+PakedgePE-08I-523654$ test SDRAM
+{"status":"success"}
+PakedgePE-08I-523654$ 
+PakedgePE-08I-523654$ buzzer -v 1
+{"status":"success"}
+PakedgePE-08I-523654$ 
+PakedgePE-08I-523654$ buzzer -v 0
+{"status":"success"}
+PakedgePE-08I-523654$ 
+Buzzer is Wrong
+
+·äøQÆ÷œyÔ‡Ê§”¡
+PakedgePE-08I-523654$ ping -i 192.168.1.111
+{"status":"success", "response":{"transmitted":"5","received":"5","loss":"0%"}}
+PakedgePE-08I-523654$ 
+PakedgePE-08I-523654$ show device-info
+{"status":"success", "response":{"firmware_version":"0.89","model":"PE-08I","serial_number":"PE-08IC0516A00000","MAC":"22:3D:F2:52:36:54","hostname":"PakedgePE-08I-523654"}}
+PakedgePE-08I-523654$ 
+PakedgePE-08I-523654$ show pdu-status
+{"status":"success", "response":{"pdu_voltage":"226 V","pdu_frequency":"50 Hz","pdu_alert":"0","pdu_current":"0.00 A","pdu_temp":"28","pdu_temp_unit":"C","pdu_humidity":"58%"}}
+PakedgePE-08I-523654$ 
+PakedgePE-08I-523654$ test SDRAM
+{"status":"success"}
+PakedgePE-08I-523654$ 
+PakedgePE-08I-523654$ buzzer -v 1
+{"status":"success"}
+PakedgePE-08I-523654$ 
+PakedgePE-08I-523654$ buzzer -v 0
+{"status":"success"}
+PakedgePE-08I-523654$ 
+PakedgePE-08I-523654$ show pdu-status
+{"status":"success", "response":{"pdu_voltage":"226 V","pdu_frequency":"51 Hz","pdu_alert":"0","pdu_current":"0.00 A","pdu_temp":"28","pdu_temp_unit":"C","pdu_humidity":"59%"}}
+PakedgePE-08I-523654$ 
+PakedgePE-08I-523654$ set outlet-power -o 1 -v 0
+{"status":"success"}
+PakedgePE-08I-523654$ set outlet-power -o 2 -v 0
+{"status":"success"}
+PakedgePE-08I-523654$ set outlet-power -o 3 -v 0
+{"status":"success"}
+PakedgePE-08I-523654$ set outlet-power -o 4 -v 0
+{"status":"success"}
+PakedgePE-08I-523654$ set outlet-power -o 5 -v 0
+{"status":"success"}
+PakedgePE-08I-523654$ set outlet-power -o 6 -v 0
+{"status":"success"}
+PakedgePE-08I-523654$ set outlet-power -o 7 -v 0
+{"status":"success"}
+PakedgePE-08I-523654$ set outlet-power -o 8 -v 0
+{"status":"success"}
+PakedgePE-08I-523654$ 
+PakedgePE-08I-523654$ s
+et outlet-power -o 1 -v 1{"status":"success"}
+PakedgePE-08I-523654$ 
+PakedgePE-08I-523654$ s
+et outlet-power -o 2 -v 1{"status":"success"}
+PakedgePE-08I-523654$ 
+PakedgePE-08I-523654$ set outlet-power -o 3 -v 1
+{"status":"success"}
+PakedgePE-08I-523654$ 
+PakedgePE-08I-523654$ set outlet-power -o 4 -v 
+1{"status":"success"}
+PakedgePE-08I-523654$ 
+PakedgePE-08I-523654$ s
+et outlet-power -o 5 -v 1{"status":"success"}
+PakedgePE-08I-523654$ 
+PakedgePE-08I-523654$ s
+et outlet-power -o 6 -v 1{"status":"success"}
+PakedgePE-08I-523654$ 
+PakedgePE-08I-523654$ s
+et outlet-power -o 7 -v 1{"status":"success"}
+PakedgePE-08I-523654$ 
+PakedgePE-08I-523654$ s
+et outlet-power -o 8 -v 1{"status":"success"}
+PakedgePE-08I-523654$ 
+PakedgePE-08I-523654$ 
+PakedgePE-08I-523654$ power-cycle -o 1
+{"status":"success"}
+PakedgePE-08I-523654$ power-cycle -o 2
+{"status":"success"}
+PakedgePE-08I-523654$ power-cycle -o 3
+{"status":"success"}
+PakedgePE-08I-523654$ power-cycle -o 4
+{"status":"success"}
+PakedgePE-08I-523654$ power-cycle -o 5
+{"status":"success"}
+PakedgePE-08I-523654$ power-cycle -o 6
+{"status":"success"}
+PakedgePE-08I-523654$ power-cycle -o 7
+{"status":"success"}
+PakedgePE-08I-523654$ power-cycle -o 8
+{"status":"success"}
+PakedgePE-08I-523654$ 
+PakedgePE-08I-523654$ test oled-fill 1
+{"status":"success"}
+PakedgePE-08I-523654$ 
+OLED have Dark spot or Light spot
+ 
+------------------------Test  Result--------------------------
+ 
+FAIL 
+

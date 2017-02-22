@@ -1,0 +1,475 @@
+------------------------New Pdu Test--------------------------
+ 
+06/07/16 09:29:37 
+login as: 
+Pakedge-PDU$ login: pakedge
+password: 
+password: pakedgep
+Welcome to Pakedge PDU.
+ Type 'help' for more information.
+
+Pakedge-PDU$ set outlet-power -o 1 -v 0
+PakedgePE-08I-CCDD01$ PakedgePE-08I-CCDD01$ {"status":"success"}
+PakedgePE-08I-CCDD01$ PakedgePE-08I-CCDD01$ 
+Pakedge-PDU$ set outlet-power -o 2 -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+Pakedge-PDU$ set outlet-power -o 3 -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+Pakedge-PDU$ set outlet-power -o 4 -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+Pakedge-PDU$ set outlet-power -o 5 -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+Pakedge-PDU$ set outlet-power -o 6 -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+Pakedge-PDU$ set outlet-power -o 7 -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+Pakedge-PDU$ set outlet-power -o 8 -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+Pakedge-PDU$ set outlet-power -o 1 -v 1
+PakedgePE-08I-CCDD01$ {"status":"success"}
+PakedgePE-08I-CCDD01$ 
+Pakedge-PDU$ show outlet-status -o 1
+PakedgePE-08I-CCDD01$ {"status":"success", "response":{"status":"on","power":"78 W","current":"0.7 A","peak":"0.7 A","is_alert":"0"}}
+PakedgePE-08I-CCDD01$ 
+Pakedge-PDU$ set outlet-power -o 1 -v 0
+PakedgePE-08I-CCDD01$ {"status":"success"}
+PakedgePE-08I-CCDD01$ PakedgePE-08I-CCDD01$ 
+Pakedge-PDU$ set outlet-power -o 2 -v 1
+PakedgePE-08I-CCDD01$ {"status":"success"}
+PakedgePE-08I-CCDD01$ 
+Pakedge-PDU$ show outlet-status -o 2
+PakedgePE-08I-CCDD01$ {"status":"success", "response":{"status":"on","power":"78 W","current":"0.7 A","peak":"0.7 A","is_alert":"0"}}
+PakedgePE-08I-CCDD01$ PakedgePE-08I-CCDD01$ 
+Pakedge-PDU$ set outlet-power -o 2 -v 0
+PakedgePE-08I-CCDD01$ {"status":"success"}
+PakedgePE-08I-CCDD01$ PakedgePE-08I-CCDD01$ 
+Pakedge-PDU$ set outlet-power -o 3 -v 1
+PakedgePE-08I-CCDD01$ {"status":"success"}
+PakedgePE-08I-CCDD01$ PakedgePE-08I-CCDD01$ 
+Pakedge-PDU$ show outlet-status -o 3
+PakedgePE-08I-CCDD01$ {"status":"success", "response":{"status":"on","power":"79 W","current":"0.7 A","peak":"0.7 A","is_alert":"0"}}
+PakedgePE-08I-CCDD01$ PakedgePE-08I-CCDD01$ 
+Pakedge-PDU$ set outlet-power -o 3 -v 0
+PakedgePE-08I-CCDD01$ {"status":"success"}
+PakedgePE-08I-CCDD01$ PakedgePE-08I-CCDD01$ 
+Pakedge-PDU$ set outlet-power -o 4 -v 1
+PakedgePE-08I-CCDD01$ {"status":"success"}
+PakedgePE-08I-CCDD01$ PakedgePE-08I-CCDD01$ 
+Pakedge-PDU$ show outlet-status -o 4
+PakedgePE-08I-CCDD01$ {"status":"success", "response":{"status":"on","power":"78 W","current":"0.7 A","peak":"0.7 A","is_alert":"0"}}
+PakedgePE-08I-CCDD01$ PakedgePE-08I-CCDD01$ 
+Pakedge-PDU$ set outlet-power -o 4 -v 0
+PakedgePE-08I-CCDD01$ {"status":"success"}
+PakedgePE-08I-CCDD01$ PakedgePE-08I-CCDD01$ 
+Pakedge-PDU$ set outlet-power -o 5 -v 1
+PakedgePE-08I-CCDD01$ {"status":"success"}
+PakedgePE-08I-CCDD01$ PakedgePE-08I-CCDD01$ 
+Pakedge-PDU$ show outlet-status -o 5
+PakedgePE-08I-CCDD01$ {"status":"success", "response":{"status":"on","power":"78 W","current":"0.7 A","peak":"0.7 A","is_alert":"0"}}
+PakedgePE-08I-CCDD01$ PakedgePE-08I-CCDD01$ 
+Pakedge-PDU$ set outlet-power -o 5 -v 0
+PakedgePE-08I-CCDD01$ {"status":"success"}
+PakedgePE-08I-CCDD01$ PakedgePE-08I-CCDD01$ 
+Pakedge-PDU$ set outlet-power -o 6 -v 1
+PakedgePE-08I-CCDD01$ {"status":"success"}
+PakedgePE-08I-CCDD01$ PakedgePE-08I-CCDD01$ 
+Pakedge-PDU$ show outlet-status -o 6
+PakedgePE-08I-CCDD01$ {"status":"success", "response":{"status":"on","power":"79 W","current":"0.7 A","peak":"0.7 A","is_alert":"0"}}
+PakedgePE-08I-CCDD01$ PakedgePE-08I-CCDD01$ 
+Pakedge-PDU$ set outlet-power -o 6 -v 0
+PakedgePE-08I-CCDD01$ {"status":"success"}
+PakedgePE-08I-CCDD01$ PakedgePE-08I-CCDD01$ 
+Pakedge-PDU$ set outlet-power -o 7 -v 1
+PakedgePE-08I-CCDD01$ {"status":"success"}
+PakedgePE-08I-CCDD01$ PakedgePE-08I-CCDD01$ 
+Pakedge-PDU$ show outlet-status -o 7
+PakedgePE-08I-CCDD01$ {"status":"success", "response":{"status":"on","power":"77 W","current":"0.7 A","peak":"0.7 A","is_alert":"0"}}
+PakedgePE-08I-CCDD01$ PakedgePE-08I-CCDD01$ 
+Pakedge-PDU$ set outlet-power -o 7 -v 0
+PakedgePE-08I-CCDD01$ {"status":"success"}
+PakedgePE-08I-CCDD01$ PakedgePE-08I-CCDD01$ 
+Pakedge-PDU$ set outlet-power -o 8 -v 1
+PakedgePE-08I-CCDD01$ {"status":"success"}
+PakedgePE-08I-CCDD01$ PakedgePE-08I-CCDD01$ 
+Pakedge-PDU$ show outlet-status -o 8
+PakedgePE-08I-CCDD01$ {"status":"success", "response":{"status":"on","power":"78 W","current":"0.7 A","peak":"0.7 A","is_alert":"0"}}
+PakedgePE-08I-CCDD01$ PakedgePE-08I-CCDD01$ 
+Pakedge-PDU$ set outlet-power -o 8 -v 0
+PakedgePE-08I-CCDD01$ {"status":"success"}
+PakedgePE-08I-CCDD01$ PakedgePE-08I-CCDD01$ 
+ 
+------------------------Test  Result--------------------------
+ 
+ 
+
+------------------------New Pdu Test--------------------------
+ 
+06/07/16 09:31:04 
+login as: 
+Pakedge-PDU$ login: pakedge
+password: 
+password: pakedgep
+Welcome to Pakedge PDU.
+ Type 'help' for more information.
+
+Pakedge-PDU$ set outlet-power -o 1 -v 0
+PakedgePE-08I-CCDD01$ PakedgePE-08I-CCDD01$ {"status":"success"}
+PakedgePE-08I-CCDD01$ PakedgePE-08I-CCDD01$ 
+Pakedge-PDU$ set outlet-power -o 2 -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+Pakedge-PDU$ set outlet-power -o 3 -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+Pakedge-PDU$ set outlet-power -o 4 -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+Pakedge-PDU$ set outlet-power -o 5 -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+Pakedge-PDU$ set outlet-power -o 6 -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+Pakedge-PDU$ set outlet-power -o 7 -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+Pakedge-PDU$ set outlet-power -o 8 -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+Pakedge-PDU$ set outlet-power -o 1 -v 1
+PakedgePE-08I-CCDD01$ {"status":"success"}
+PakedgePE-08I-CCDD01$ 
+Pakedge-PDU$ show outlet-status -o 1
+PakedgePE-08I-CCDD01$ {"status":"success", "response":{"status":"on","power":"78 W","current":"0.7 A","peak":"0.7 A","is_alert":"0"}}
+PakedgePE-08I-CCDD01$ 
+Pakedge-PDU$ set outlet-power -o 1 -v 0
+PakedgePE-08I-CCDD01$ {"status":"success"}
+PakedgePE-08I-CCDD01$ PakedgePE-08I-CCDD01$ 
+Pakedge-PDU$ set outlet-power -o 2 -v 1
+PakedgePE-08I-CCDD01$ {"status":"success"}
+PakedgePE-08I-CCDD01$ 
+Pakedge-PDU$ show outlet-status -o 2
+PakedgePE-08I-CCDD01$ {"status":"success", "response":{"status":"on","power":"78 W","current":"0.7 A","peak":"0.7 A","is_alert":"0"}}
+PakedgePE-08I-CCDD01$ PakedgePE-08I-CCDD01$ 
+Pakedge-PDU$ set outlet-power -o 2 -v 0
+PakedgePE-08I-CCDD01$ {"status":"success"}
+PakedgePE-08I-CCDD01$ PakedgePE-08I-CCDD01$ 
+Pakedge-PDU$ set outlet-power -o 3 -v 1
+PakedgePE-08I-CCDD01$ {"status":"success"}
+PakedgePE-08I-CCDD01$ PakedgePE-08I-CCDD01$ 
+Pakedge-PDU$ show outlet-status -o 3
+PakedgePE-08I-CCDD01$ {"status":"success", "response":{"status":"on","power":"79 W","current":"0.7 A","peak":"0.7 A","is_alert":"0"}}
+PakedgePE-08I-CCDD01$ PakedgePE-08I-CCDD01$ 
+Pakedge-PDU$ set outlet-power -o 3 -v 0
+PakedgePE-08I-CCDD01$ {"status":"success"}
+PakedgePE-08I-CCDD01$ PakedgePE-08I-CCDD01$ 
+Pakedge-PDU$ set outlet-power -o 4 -v 1
+PakedgePE-08I-CCDD01$ {"status":"success"}
+PakedgePE-08I-CCDD01$ PakedgePE-08I-CCDD01$ 
+Pakedge-PDU$ show outlet-status -o 4
+PakedgePE-08I-CCDD01$ {"status":"success", "response":{"status":"on","power":"78 W","current":"0.7 A","peak":"0.7 A","is_alert":"0"}}
+PakedgePE-08I-CCDD01$ PakedgePE-08I-CCDD01$ 
+Pakedge-PDU$ set outlet-power -o 4 -v 0
+PakedgePE-08I-CCDD01$ {"status":"success"}
+PakedgePE-08I-CCDD01$ PakedgePE-08I-CCDD01$ 
+Pakedge-PDU$ set outlet-power -o 5 -v 1
+PakedgePE-08I-CCDD01$ {"status":"success"}
+PakedgePE-08I-CCDD01$ PakedgePE-08I-CCDD01$ 
+Pakedge-PDU$ show outlet-status -o 5
+PakedgePE-08I-CCDD01$ {"status":"success", "response":{"status":"on","power":"78 W","current":"0.7 A","peak":"0.7 A","is_alert":"0"}}
+PakedgePE-08I-CCDD01$ PakedgePE-08I-CCDD01$ 
+Pakedge-PDU$ set outlet-power -o 5 -v 0
+PakedgePE-08I-CCDD01$ {"status":"success"}
+PakedgePE-08I-CCDD01$ PakedgePE-08I-CCDD01$ 
+Pakedge-PDU$ set outlet-power -o 6 -v 1
+PakedgePE-08I-CCDD01$ {"status":"success"}
+PakedgePE-08I-CCDD01$ PakedgePE-08I-CCDD01$ 
+Pakedge-PDU$ show outlet-status -o 6
+PakedgePE-08I-CCDD01$ {"status":"success", "response":{"status":"on","power":"79 W","current":"0.7 A","peak":"0.7 A","is_alert":"0"}}
+PakedgePE-08I-CCDD01$ PakedgePE-08I-CCDD01$ 
+Pakedge-PDU$ set outlet-power -o 6 -v 0
+PakedgePE-08I-CCDD01$ {"status":"success"}
+PakedgePE-08I-CCDD01$ PakedgePE-08I-CCDD01$ 
+Pakedge-PDU$ set outlet-power -o 7 -v 1
+PakedgePE-08I-CCDD01$ {"status":"success"}
+PakedgePE-08I-CCDD01$ PakedgePE-08I-CCDD01$ 
+Pakedge-PDU$ show outlet-status -o 7
+PakedgePE-08I-CCDD01$ {"status":"success", "response":{"status":"on","power":"77 W","current":"0.7 A","peak":"0.7 A","is_alert":"0"}}
+PakedgePE-08I-CCDD01$ PakedgePE-08I-CCDD01$ 
+Pakedge-PDU$ set outlet-power -o 7 -v 0
+PakedgePE-08I-CCDD01$ {"status":"success"}
+PakedgePE-08I-CCDD01$ PakedgePE-08I-CCDD01$ 
+Pakedge-PDU$ set outlet-power -o 8 -v 1
+PakedgePE-08I-CCDD01$ {"status":"success"}
+PakedgePE-08I-CCDD01$ PakedgePE-08I-CCDD01$ 
+Pakedge-PDU$ show outlet-status -o 8
+PakedgePE-08I-CCDD01$ {"status":"success", "response":{"status":"on","power":"78 W","current":"0.7 A","peak":"0.7 A","is_alert":"0"}}
+PakedgePE-08I-CCDD01$ PakedgePE-08I-CCDD01$ 
+Pakedge-PDU$ set outlet-power -o 8 -v 0
+PakedgePE-08I-CCDD01$ {"status":"success"}
+PakedgePE-08I-CCDD01$ PakedgePE-08I-CCDD01$ 
+Pakedge-PDU$ set outlet-power -o 1 -v 1
+PakedgePE-08I-CCDD01$ {"status":"success"}
+PakedgePE-08I-CCDD01$ PakedgePE-08I-CCDD01$ 
+Pakedge-PDU$ show outlet-status -o 1
+PakedgePE-08I-CCDD01$ {"status":"success", "response":{"status":"on","power":"632 W","current":"5.7 A","peak":"5.7 A","is_alert":"0"}}
+PakedgePE-08I-CCDD01$ PakedgePE-08I-CCDD01$ 
+Pakedge-PDU$ set outlet-power -o 1 -v 0
+PakedgePE-08I-CCDD01$ {"status":"success"}
+PakedgePE-08I-CCDD01$ PakedgePE-08I-CCDD01$ 
+Pakedge-PDU$ set outlet-power -o 2 -v 1
+PakedgePE-08I-CCDD01$ {"status":"success"}
+PakedgePE-08I-CCDD01$ PakedgePE-08I-CCDD01$ 
+Pakedge-PDU$ show outlet-status -o 2
+PakedgePE-08I-CCDD01$ {"status":"success", "response":{"status":"on","power":"629 W","current":"5.7 A","peak":"5.7 A","is_alert":"0"}}
+PakedgePE-08I-CCDD01$ PakedgePE-08I-CCDD01$ 
+Pakedge-PDU$ set outlet-power -o 2 -v 0
+PakedgePE-08I-CCDD01$ {"status":"success"}
+PakedgePE-08I-CCDD01$ PakedgePE-08I-CCDD01$ 
+Pakedge-PDU$ set outlet-power -o 3 -v 1
+PakedgePE-08I-CCDD01$ {"status":"success"}
+PakedgePE-08I-CCDD01$ PakedgePE-08I-CCDD01$ 
+Pakedge-PDU$ show outlet-status -o 3
+PakedgePE-08I-CCDD01$ {"status":"success", "response":{"status":"on","power":"634 W","current":"5.7 A","peak":"5.7 A","is_alert":"0"}}
+PakedgePE-08I-CCDD01$ PakedgePE-08I-CCDD01$ 
+Pakedge-PDU$ set outlet-power -o 3 -v 0
+PakedgePE-08I-CCDD01$ {"status":"success"}
+PakedgePE-08I-CCDD01$ PakedgePE-08I-CCDD01$ 
+Pakedge-PDU$ set outlet-power -o 4 -v 1
+PakedgePE-08I-CCDD01$ {"status":"success"}
+PakedgePE-08I-CCDD01$ PakedgePE-08I-CCDD01$ 
+Pakedge-PDU$ show outlet-status -o 4
+PakedgePE-08I-CCDD01$ {"status":"success", "response":{"status":"on","power":"633 W","current":"5.7 A","peak":"5.7 A","is_alert":"0"}}
+PakedgePE-08I-CCDD01$ PakedgePE-08I-CCDD01$ 
+Pakedge-PDU$ set outlet-power -o 4 -v 0
+PakedgePE-08I-CCDD01$ {"status":"success"}
+PakedgePE-08I-CCDD01$ PakedgePE-08I-CCDD01$ 
+Pakedge-PDU$ set outlet-power -o 5 -v 1
+PakedgePE-08I-CCDD01$ {"status":"success"}
+PakedgePE-08I-CCDD01$ PakedgePE-08I-CCDD01$ 
+Pakedge-PDU$ show outlet-status -o 5
+PakedgePE-08I-CCDD01$ {"status":"success", "response":{"status":"on","power":"632 W","current":"5.7 A","peak":"5.7 A","is_alert":"0"}}
+PakedgePE-08I-CCDD01$ PakedgePE-08I-CCDD01$ 
+Pakedge-PDU$ set outlet-power -o 5 -v 0
+PakedgePE-08I-CCDD01$ {"status":"success"}
+PakedgePE-08I-CCDD01$ PakedgePE-08I-CCDD01$ 
+Pakedge-PDU$ set outlet-power -o 6 -v 1
+PakedgePE-08I-CCDD01$ {"status":"success"}
+PakedgePE-08I-CCDD01$ PakedgePE-08I-CCDD01$ 
+Pakedge-PDU$ show outlet-status -o 6
+PakedgePE-08I-CCDD01$ {"status":"success", "response":{"status":"on","power":"622 W","current":"5.6 A","peak":"5.6 A","is_alert":"0"}}
+PakedgePE-08I-CCDD01$ PakedgePE-08I-CCDD01$ 
+Pakedge-PDU$ set outlet-power -o 6 -v 0
+PakedgePE-08I-CCDD01$ {"status":"success"}
+PakedgePE-08I-CCDD01$ PakedgePE-08I-CCDD01$ 
+Pakedge-PDU$ set outlet-power -o 7 -v 1
+PakedgePE-08I-CCDD01$ {"status":"success"}
+PakedgePE-08I-CCDD01$ PakedgePE-08I-CCDD01$ 
+Pakedge-PDU$ show outlet-status -o 7
+PakedgePE-08I-CCDD01$ {"status":"success", "response":{"status":"on","power":"627 W","current":"5.6 A","peak":"5.6 A","is_alert":"0"}}
+PakedgePE-08I-CCDD01$ PakedgePE-08I-CCDD01$ 
+Pakedge-PDU$ set outlet-power -o 7 -v 0
+PakedgePE-08I-CCDD01$ {"status":"success"}
+PakedgePE-08I-CCDD01$ PakedgePE-08I-CCDD01$ 
+Pakedge-PDU$ set outlet-power -o 8 -v 1
+PakedgePE-08I-CCDD01$ {"status":"success"}
+PakedgePE-08I-CCDD01$ PakedgePE-08I-CCDD01$ 
+Pakedge-PDU$ show outlet-status -o 8
+PakedgePE-08I-CCDD01$ {"status":"success", "response":{"status":"on","power":"625 W","current":"5.6 A","peak":"5.6 A","is_alert":"0"}}
+PakedgePE-08I-CCDD01$ PakedgePE-08I-CCDD01$ 
+Pakedge-PDU$ set outlet-power -o 8 -v 0
+PakedgePE-08I-CCDD01$ {"status":"success"}
+PakedgePE-08I-CCDD01$ PakedgePE-08I-CCDD01$ 
+ 
+------------------------Test  Result--------------------------
+ 
+ 
+
+------------------------New Pdu Test--------------------------
+ 
+12/30/16 10:17:41 
+p
+akedgepassword: 
+Welcome to Pakedge PDU.
+ Type 'help' for more information.
+
+PakedgePE-08I-445566$ set outlet-power -o 1 -v 0
+{"status":"success"}
+PakedgePE-08I-445566$ set outlet-power -o 2 -v 0
+{"status":"success"}
+PakedgePE-08I-445566$ set outlet-power -o 3 -v 0
+{"status":"success"}
+PakedgePE-08I-445566$ set outlet-power -o 4 -v 0
+{"status":"success"}
+PakedgePE-08I-445566$ set outlet-power -o 5 -v 0
+{"status":"success"}
+PakedgePE-08I-445566$ set outlet-power -o 6 -v 0
+{"status":"success"}
+PakedgePE-08I-445566$ set outlet-power -o 7 -v 0
+{"status":"success"}
+PakedgePE-08I-445566$ set outlet-power -o 8 -v 0
+{"status":"success"}
+PakedgePE-08I-445566$ 
+PakedgePE-08I-445566$ 
+PakedgePE-08I-445566$ show device-info
+{"status":"success", "response":{"firmware_version":"0.94.2","model":"PE-08I","serial_number":"PE-08IC0416A10050","MAC":"11:22:33:44:55:66","hostname":"PakedgePE-08I-445566"}}
+PakedgePE-08I-445566$ 
+PakedgePE-08I-445566$ show pdu-status
+{"status":"success", "response":{"pdu_voltage":"232 V","pdu_frequency":"50 Hz","pdu_alert":"0","pdu_current":"0.00 A"}}
+PakedgePE-08I-445566$ 
+PakedgePE-08I-445566$ set outlet-power -o 1 -v 1
+{"status":"success"}
+PakedgePE-08I-445566$ 
+PakedgePE-08I-445566$ show outlet-status -o 1
+{"status":"success", "response":{"status":"on","power":"164 W","current":"0.71 A","peak":"0.7 A","is_alert":"0"}}
+PakedgePE-08I-445566$ 
+PakedgePE-08I-445566$ set outlet-power -o 1 -v 0
+{"status":"success"}
+PakedgePE-08I-445566$ 
+PakedgePE-08I-445566$ set outlet-power -o 2 -v 1
+{"status":"success"}
+PakedgePE-08I-445566$ 
+PakedgePE-08I-445566$ show outlet-status -o 2
+{"status":"success", "response":{"status":"on","power":"164 W","current":"0.71 A","peak":"0.7 A","is_alert":"0"}}
+PakedgePE-08I-445566$ 
+PakedgePE-08I-445566$ set outlet-power -o 2 -v 0
+{"status":"success"}
+PakedgePE-08I-445566$ 
+PakedgePE-08I-445566$ set outlet-power -o 3 -v 1
+{"status":"success"}
+PakedgePE-08I-445566$ 
+PakedgePE-08I-445566$ show outlet-status -o 3
+{"status":"success", "response":{"status":"on","power":"164 W","current":"0.71 A","peak":"0.7 A","is_alert":"0"}}
+PakedgePE-08I-445566$ 
+PakedgePE-08I-445566$ set outlet-power -o 3 -v 0
+{"status":"success"}
+PakedgePE-08I-445566$ 
+PakedgePE-08I-445566$ set outlet-power -o 4 -v 1
+{"status":"success"}
+PakedgePE-08I-445566$ 
+PakedgePE-08I-445566$ show outlet-status -o 4
+{"status":"success", "response":{"status":"on","power":"164 W","current":"0.71 A","peak":"0.7 A","is_alert":"0"}}
+PakedgePE-08I-445566$ 
+PakedgePE-08I-445566$ set outlet-power -o 4 -v 0
+{"status":"success"}
+PakedgePE-08I-445566$ 
+PakedgePE-08I-445566$ set outlet-power -o 5 -v 1
+{"status":"success"}
+PakedgePE-08I-445566$ 
+PakedgePE-08I-445566$ show outlet-status -o 5
+{"status":"success", "response":{"status":"on","power":"160 W","current":"0.69 A","peak":"0.7 A","is_alert":"0"}}
+PakedgePE-08I-445566$ 
+PakedgePE-08I-445566$ set outlet-power -o 5 -v 0
+{"status":"success"}
+PakedgePE-08I-445566$ 
+PakedgePE-08I-445566$ set outlet-power -o 6 -v 1
+{"status":"success"}
+PakedgePE-08I-445566$ 
+PakedgePE-08I-445566$ show outlet-status -o 6
+{"status":"success", "response":{"status":"on","power":"160 W","current":"0.69 A","peak":"0.7 A","is_alert":"0"}}
+PakedgePE-08I-445566$ 
+PakedgePE-08I-445566$ set outlet-power -o 6 -v 0
+{"status":"success"}
+PakedgePE-08I-445566$ 
+PakedgePE-08I-445566$ set outlet-power -o 7 -v 1
+{"status":"success"}
+PakedgePE-08I-445566$ 
+PakedgePE-08I-445566$ show outlet-status -o 7
+{"status":"success", "response":{"status":"on","power":"160 W","current":"0.69 A","peak":"0.7 A","is_alert":"0"}}
+PakedgePE-08I-445566$ 
+PakedgePE-08I-445566$ set outlet-power -o 7 -v 0
+{"status":"success"}
+PakedgePE-08I-445566$ 
+PakedgePE-08I-445566$ set outlet-power -o 8 -v 1
+{"status":"success"}
+PakedgePE-08I-445566$ 
+PakedgePE-08I-445566$ show outlet-status -o 8
+{"status":"success", "response":{"status":"on","power":"164 W","current":"0.71 A","peak":"0.7 A","is_alert":"0"}}
+PakedgePE-08I-445566$ 
+PakedgePE-08I-445566$ set outlet-power -o 8 -v 0
+{"status":"success"}
+PakedgePE-08I-445566$ 
+PakedgePE-08I-445566$ set outlet-power -o 1 -v 1
+{"status":"success"}
+PakedgePE-08I-445566$ 
+PakedgePE-08I-445566$ show outlet-status -o 1
+{"status":"success", "response":{"status":"on","power":"2306 W","current":"10.0 A","peak":"10.0 A","is_alert":"0"}}
+PakedgePE-08I-445566$ 
+PakedgePE-08I-445566$ set outlet-power -o 1 -v 0
+{"status":"success"}
+PakedgePE-08I-445566$ 
+PakedgePE-08I-445566$ set outlet-power -o 2 -v 1
+{"status":"success"}
+PakedgePE-08I-445566$ 
+PakedgePE-08I-445566$ show outlet-status -o 2
+{"status":"success", "response":{"status":"on","power":"2295 W","current":"9.9 A","peak":"9.9 A","is_alert":"0"}}
+PakedgePE-08I-445566$ 
+PakedgePE-08I-445566$ set outlet-power -o 2 -v 0
+{"status":"success"}
+PakedgePE-08I-445566$ 
+PakedgePE-08I-445566$ set outlet-power -o 3 -v 1
+{"status":"success"}
+PakedgePE-08I-445566$ 
+PakedgePE-08I-445566$ show outlet-status -o 3
+{"status":"success", "response":{"status":"on","power":"2310 W","current":"10.0 A","peak":"10.0 A","is_alert":"0"}}
+PakedgePE-08I-445566$ 
+PakedgePE-08I-445566$ set outlet-power -o 3 -v 0
+{"status":"success"}
+PakedgePE-08I-445566$ 
+PakedgePE-08I-445566$ set outlet-power -o 4 -v 1
+{"status":"success"}
+PakedgePE-08I-445566$ 
+PakedgePE-08I-445566$ show outlet-status -o 4
+{"status":"success", "response":{"status":"on","power":"2296 W","current":"10.0 A","peak":"10.0 A","is_alert":"0"}}
+PakedgePE-08I-445566$ 
+PakedgePE-08I-445566$ set outlet-power -o 4 -v 0
+{"status":"success"}
+PakedgePE-08I-445566$ 
+PakedgePE-08I-445566$ set outlet-power -o 5 -v 1
+{"status":"success"}
+PakedgePE-08I-445566$ 
+PakedgePE-08I-445566$ show outlet-status -o 5
+{"status":"success", "response":{"status":"on","power":"2259 W","current":"9.8 A","peak":"9.8 A","is_alert":"0"}}
+PakedgePE-08I-445566$ 
+PakedgePE-08I-445566$ set outlet-power -o 5 -v 0
+{"status":"success"}
+PakedgePE-08I-445566$ 
+PakedgePE-08I-445566$ set outlet-power -o 6 -v 1
+{"status":"success"}
+PakedgePE-08I-445566$ 
+PakedgePE-08I-445566$ show outlet-status -o 6
+{"status":"success", "response":{"status":"on","power":"2276 W","current":"9.9 A","peak":"9.9 A","is_alert":"0"}}
+PakedgePE-08I-445566$ 
+PakedgePE-08I-445566$ set outlet-power -o 6 -v 0
+{"status":"success"}
+PakedgePE-08I-445566$ 
+PakedgePE-08I-445566$ set outlet-power -o 7 -v 1
+{"status":"success"}
+PakedgePE-08I-445566$ 
+PakedgePE-08I-445566$ show outlet-status -o 7
+{"status":"success", "response":{"status":"on","power":"2280 W","current":"9.9 A","peak":"9.9 A","is_alert":"0"}}
+PakedgePE-08I-445566$ 
+PakedgePE-08I-445566$ set outlet-power -o 7 -v 0
+{"status":"success"}
+PakedgePE-08I-445566$ 
+PakedgePE-08I-445566$ set outlet-power -o 8 -v 1
+{"status":"success"}
+PakedgePE-08I-445566$ 
+PakedgePE-08I-445566$ show outlet-status -o 8
+{"status":"success", "response":{"status":"on","power":"2298 W","current":"10.0 A","peak":"10.0 A","is_alert":"0"}}
+PakedgePE-08I-445566$ 
+PakedgePE-08I-445566$ set outlet-power -o 8 -v 0
+{"status":"success"}
+PakedgePE-08I-445566$ 
+ 
+------------------------Test  Result--------------------------
+ 
+ 
+

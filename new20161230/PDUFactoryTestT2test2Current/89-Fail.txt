@@ -1,0 +1,72 @@
+------------------------New Pdu Test--------------------------
+ 
+05/30/16 11:16:44 
+login as: 
+Pakedge-PDU$ login: pakedge
+password: 
+password: pakedgep
+Welcome to Pakedge PDU.
+ Type 'help' for more information.
+PakedgePE-09N-CCDD01$ 
+Pakedge-PDU$ test SD-card
+PakedgePE-09N-CCDD01$ {"status":"error","msg":"not mounted"}
+PakedgePE-09N-CCDD01$ PakedgePE-09N-CCDD01$ 
+ 
+------------------------Test  Result--------------------------
+ 
+FAIL 
+
+------------------------New Pdu Test--------------------------
+ 
+05/30/16 11:17:01 
+login as: 
+Pakedge-PDU$ login: pakedge
+password: 
+password: pakedgep
+Welcome to Pakedge PDU.
+ Type 'help' for more information.
+PakedgePE-09N-CCDD01$ 
+Pakedge-PDU$ test SD-card
+PakedgePE-09N-CCDD01$ {"status":"error","msg":"not mounted"}
+PakedgePE-09N-CCDD01$ PakedgePE-09N-CCDD01$ 
+ 
+------------------------Test  Result--------------------------
+ 
+FAIL 
+
+------------------------New Pdu Test--------------------------
+ 
+05/30/16 11:17:18 
+login as: 
+Pakedge-PDU$ login: pakedge
+password: 
+password: pakedgep
+Welcome to Pakedge PDU.
+ Type 'help' for more information.
+PakedgePE-09N-CCDD01$ 
+Pakedge-PDU$ test SD-card
+PakedgePE-09N-CCDD01$ {"status":"error","msg":"not mounted"}
+PakedgePE-09N-CCDD01$ PakedgePE-09N-CCDD01$ 
+ 
+------------------------Test  Result--------------------------
+ 
+FAIL 
+
+------------------------New Pdu Test--------------------------
+ 
+05/30/16 11:19:52 
+login as: 
+Pakedge-PDU$ login: pakedge
+password: 
+password: pakedgep
+Welcome to Pakedge PDU.
+ Type 'help' for more information.
+PakedgePE-09N-CCDD01$ 
+Pakedge-PDU$ test SD-card
+PakedgePE-09N-CCDD01$ {"status":"error","msg":"not mounted"}
+PakedgePE-09N-CCDD01$ PakedgePE-09N-CCDD01$ 
+ 
+------------------------Test  Result--------------------------
+ 
+FAIL 
+

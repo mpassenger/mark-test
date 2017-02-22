@@ -1,0 +1,71 @@
+------------------------New Pdu Test--------------------------
+ 
+12/07/16 13:48:24 
+login as: p
+akedgepassword: 
+Welcome to Pakedge PDU.
+ Type 'help' for more information.
+
+PakedgePE-08I-CCDD01$ buzzer -v 1
+{"status":"error","msg":"not done"}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ buzzer -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+Buzzer is Wrong
+
+蜂鳴器不良
+PakedgePE-08I-CCDD01$ ping -i 192.168.1.111
+{"status":"success", "response":{"transmitted":"5","received":"5","loss":"0%"}}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ show device-info
+{"status":"success", "response":{"firmware_version":"0.94.1","model":"PE-08I","serial_number":"000000000000000","MAC":"00:AA:BB:CC:DD:01","hostname":"PakedgePE-08I-CCDD01"}}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ show pdu-status
+{"status":"success", "response":{"pdu_voltage":"230 V","pdu_frequency":"51 Hz","pdu_alert":"0","pdu_current":"0.00 A"}}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ test oled-fill 1
+{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+OLED have Dark spot or Light spot
+ 
+------------------------Test  Result--------------------------
+ 
+FAIL 
+
+------------------------New Pdu Test--------------------------
+ 
+12/07/16 13:52:50 
+login as: p
+akedgepassword: 
+Welcome to Pakedge PDU.
+ Type 'help' for more information.
+
+PakedgePE-08I-CCDD01$ buzzer -v 1
+{"status":"error","msg":"not done"}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ buzzer -v 0
+{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+Buzzer is Wrong
+
+蜂鳴器不良
+PakedgePE-08I-CCDD01$ ping -i 192.168.1.111
+{"status":"success", "response":{"transmitted":"5","received":"5","loss":"0%"}}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ show device-info
+{"status":"success", "response":{"firmware_version":"0.94.1","model":"PE-08I","serial_number":"000000000000000","MAC":"00:AA:BB:CC:DD:01","hostname":"PakedgePE-08I-CCDD01"}}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ show pdu-status
+{"status":"success", "response":{"pdu_voltage":"230 V","pdu_frequency":"50 Hz","pdu_alert":"0","pdu_current":"0.00 A"}}
+PakedgePE-08I-CCDD01$ 
+PDU Status is Wrong
+PakedgePE-08I-CCDD01$ test oled-fill 1
+{"status":"success"}
+PakedgePE-08I-CCDD01$ 
+OLED have Dark spot or Light spot
+ 
+------------------------Test  Result--------------------------
+ 
+FAIL 
+

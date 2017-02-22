@@ -1,0 +1,126 @@
+------------------------New Pdu Test--------------------------
+ 
+09/02/16 08:29:10 
+login as: p
+akedgepassword: 
+Welcome to Pakedge PDU.
+ Type 'help' for more information.
+
+PakedgePE-09N-CCDD01$ 
+PakedgePE-09N-CCDD01$ show net
+{"status":"success", "response":{"type":"static","ip":"192.168.1.252","netmask":"255.255.255.0","gateway":"192.168.1.99","dns":"8.8.8.8"}}
+PakedgePE-09N-CCDD01$ 
+
+ 
+------------------------Test  Result--------------------------
+ 
+PASS 
+
+------------------------New Pdu Test--------------------------
+ 
+09/02/16 11:16:58 
+login as: p
+akedgepassword: 
+Welcome to Pakedge PDU.
+ Type 'help' for more information.
+
+PakedgePE-09N-123456$ 
+PakedgePE-09N-123456$ show net
+{"status":"success", "response":{"type":"static","ip":"192.168.1.252","netmask":"255.255.255.0","gateway":"192.168.1.99","dns":"8.8.8.8"}}
+PakedgePE-09N-123456$ 
+PakedgePE-09N-123456$ factory-default
+ 
+------------------------Test  Result--------------------------
+ 
+PASS 
+
+------------------------New Pdu Test--------------------------
+ 
+09/02/16 11:42:52 
+login as: p
+akedgepassword: 
+Welcome to Pakedge PDU.
+ Type 'help' for more information.
+
+PakedgePE-09N-123456$ 
+PakedgePE-09N-123456$ show net
+{"status":"success", "response":{"type":"static","ip":"192.168.1.252","netmask":"255.255.255.0","gateway":"192.168.1.99","dns":"8.8.8.8"}}
+PakedgePE-09N-123456$ 
+PakedgePE-09N-123456$ factory-default
+ 
+------------------------Test  Result--------------------------
+ 
+PASS 
+
+------------------------New Pdu Test--------------------------
+ 
+11/22/06 17:43:06 
+login as: p
+akedgepassword: 
+Welcome to Pakedge PDU.
+ Type 'help' for more information.
+
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ show net
+{"status":"success", "response":{"type":"static","ip":"192.168.1.252","netmask":"255.255.255.0","gateway":"192.168.1.99","dns":"8.8.8.8"}}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ factory-default
+ 
+------------------------Test  Result--------------------------
+ 
+PASS 
+
+------------------------New Pdu Test--------------------------
+ 
+11/22/06 17:47:42 
+p
+akedgepassword: 
+Welcome to Pakedge PDU.
+ Type 'help' for more information.
+
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ show net
+{"status":"success", "response":{"type":"static","ip":"192.168.1.252","netmask":"255.255.255.0","gateway":"192.168.1.99","dns":"8.8.8.8"}}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ factory-default
+ 
+------------------------Test  Result--------------------------
+ 
+PASS 
+
+------------------------New Pdu Test--------------------------
+ 
+12/09/16 09:40:09 
+login as: p
+akedgepassword: 
+Welcome to Pakedge PDU.
+ Type 'help' for more information.
+
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ show net
+{"status":"success", "response":{"type":"static","ip":"192.168.1.252","netmask":"255.255.255.0","gateway":"192.168.1.99","dns":"8.8.8.8"}}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ factory-default
+ 
+------------------------Test  Result--------------------------
+ 
+PASS 
+
+------------------------New Pdu Test--------------------------
+ 
+12/09/16 09:50:52 
+login as: p
+akedgepassword: 
+Welcome to Pakedge PDU.
+ Type 'help' for more information.
+
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ show net
+{"status":"success", "response":{"type":"static","ip":"192.168.1.252","netmask":"255.255.255.0","gateway":"192.168.1.99","dns":"8.8.8.8"}}
+PakedgePE-08I-CCDD01$ 
+PakedgePE-08I-CCDD01$ factory-default
+ 
+------------------------Test  Result--------------------------
+ 
+PASS 
+
